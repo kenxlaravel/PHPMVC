@@ -1,0 +1,51 @@
+<div class="addtocart-success-dialog">
+    <p class="no-margin-bottom">Item Added to Cart</p>
+    <div class="addtocart-success-dialog-inner">
+        {{#if oldQuantity}}
+            <p class="first-margin append-bottom qty-update">You already had {{oldQuantity}} of this item in your cart. You have now added {{quantityAdded}} more.</p>
+        {{/if}}
+        {{#if image}}
+            <div class="addtocart-success-dialog-image"><img src="{{image}}" alt="">
+            {{#if accuracyImage}}
+            <p class="small-text note-text prepend-top text-left first-margin last-margin">Image above is for text confirmation purposes only. <a href="/images/help-elements/street-name-popups/{{accuracyImage}}" class="zoom underline no-wrap">Click here</a> to see a sample of our print quality.</p>
+        {{/if}}
+
+        {{#if imageUploaded}}
+            <p class="small-text note-text prepend-top text-left first-margin last-margin">Your image has been uploaded and will be applied to your sign.</p>
+        {{/if}}
+    </div>
+        {{/if}}
+        <table>
+            <thead>
+                <tr>
+                    <th>{{#if oldQuantity}}Total Qty{{else}}Qty{{/if}}</th>
+                    <th>Each</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{{newQuantity}}</td>
+                    <td>{{formatPrice unitPrice}}</td>
+                    <td>{{formatPrice totalPrice}}</td>
+                </tr>
+            </tbody>
+        </table>
+        {{#if attrs}}
+            <dl>
+                {{#each attrs}}
+                    <dt>{{this.attribute}}</dt><dd>{{this.value}}</dd>
+                {{/each}}
+            </dl>
+        {{/if}}
+        {{#if savings}}
+            <p class="addtocart-savings">YOU SAVED {{savings}}%</p>
+        {{/if}}
+
+
+        <div class="addtocart-success-dialog-buttons">
+            <div class="button cancel">Continue Shopping</div>
+            <a href="{{cartUrl}}" class="button">View Cart</a>
+        </div>
+    </div>
+</div>

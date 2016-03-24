@@ -1,0 +1,1086 @@
+
+.bold {font-weight:bold !important;}
+
+body#signin-page .contacting cite, body#signin-basic-page .contacting cite, body#checkout-page .contacting cite {
+    margin: -3px 0 0.5em 70px;
+	width:auto
+}
+
+body#signin-page ul#checkout-progress {
+    margin-left: 25px;
+    margin-top: 0;
+}
+
+body#signin-page label{
+	display:block;
+	line-height: 1.75em;
+    margin-left: 0px;
+	float:none;
+}
+
+body#signin-page form div {
+	float:none;
+}
+
+body#signin-page .form-container{
+    width: 275px;
+	border:0;
+}
+
+body#signin-page form.signin-form, body#signin-page #new-user-guest-checkout{
+    min-height: 220px;
+    width: 275px;
+	border:0;
+}
+
+body#signin-page .benifits {
+    background: none repeat scroll 0 0 transparent;
+    margin: 5px 0 0 0;
+    padding: 10px 5px;
+    width: 260px;
+	clear:both;
+	border-top: 1px solid #E6E6E6;
+	border-left:none;
+	border-right:none;
+	border-bottom:none;
+}
+
+body#signin-page #new-users-signup .benifits {
+	border-top: 1px solid #abc2d9;
+}
+
+body#signin-page .benifits p{
+	color:#175892;
+}
+
+body#signin-page #new-users-signup input.required {
+    background-color: #fff;
+}
+
+form.signin-form input.text, body#signin-page #content input.text{
+    float: none;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 265px;
+}
+
+body#signin-page h2.long-and-grey{
+	line-height: 1.7;
+	margin-bottom: 0;
+	text-indent: .5em;
+	color: #ffffff;
+	font-size: 15px;
+	background-color:#175892;
+}
+
+body#signin-page form.contacting input[type="radio"], body#signin-page form.contacting input[type="checkbox"], body#checkout-page input[type="radio"], body#checkout-page input[type="checkbox"] {
+    margin-left: 0;
+    margin-top: 2px;
+	top:1px;
+}
+
+body#signin-page #signin-group{
+	margin-top:10px;
+	border-left: 1px solid #E6E6E6;
+    border-right: 1px solid #E6E6E6;
+	border-bottom: 1px solid #E6E6E6;
+	margin-bottom:10px;
+}
+
+/*#new-users-signup, #returning-users-signin, #guest-users-signin {
+    margin-top: 15px;
+}*/
+
+body#signin-page #new-users-signup .form-container, body#signin-page #new-users-signup form {
+    background: none repeat scroll 0 0 transparent;
+}
+
+#guest-users-signin #reminder-of-benefits {
+    clear: both;
+    margin-top: 60px;
+}
+
+#guest-users-signin #guest-checkout .button{
+	 border: 0 none;
+    border-radius: 0 0 0 0;
+    margin-right: 10px;
+    text-shadow: none;
+}
+
+#guest-users-signin{
+	border-left: 1px solid #E6E6E6;
+	margin-bottom:20px;
+}
+
+body#signin-page #new-users-signup {
+    background-color: #e6eef6;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 20px;
+	float:left;
+	width: 275px;
+}
+
+body#signin-page div.grad-footer{
+	margin-top:-5px;
+	padding-top:0;
+}
+
+body#signin-page .form-container {
+    background: none repeat scroll 0 0 #fff;
+}
+
+body#signin-page #returning-users-signin, body#signin-page #guest-users-signin {
+	float:left;
+	width:275px;
+	padding:20px;
+}
+
+body#signin-page #returning-users-signin .button{
+	margin-top:10px;
+}
+
+body#signin-page #guest-users-signin #reminder-of-benefits p, body#signin-page #newsletter-signup{
+	margin-top:10px;
+	margin-bottom:0;
+}
+
+body#signin-page #new-users-signup ul li {
+    float: none;
+    overflow: visible;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-top: 5px;
+	list-style-type:disc;
+	list-style-position:inside;
+	line-height:1em;
+	color:#175892;
+}
+
+#new-users-signup form label{
+	color:#153E54;
+	width: 180px;
+}
+
+body#signin-page #returning-user-signins #remember{
+	margin-top:1px;
+}
+
+body#signin-page #returning-user-signins #forgot-password {
+    clear: both;
+    display: block;
+    padding: 10px 10px 0 0;
+    text-align: right;
+}
+
+body#signin-page #returning-user-signins #remember-password {
+	float:left;
+	margin-top:10px;
+}
+
+body#signin-page #newsletter-signup span{
+	font-weight:normal;
+}
+
+body#signin-page #security-blurb{
+	padding-bottom:30px;
+	padding-left:10px;
+	clear:both;
+}
+
+
+body#signin-page #security-blurb p{
+	float:left;
+	padding:0;
+}
+
+body#signin-page #security-blurb a {
+    margin-left: 0px;
+}
+
+body#signin-page #security-blurb a span.arrow {
+    height: 13px;
+}
+
+body#signin-page div.AuthorizeNetSeal {
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+
+
+/* ---------- basic sign in page ------------- */
+
+body#signin-basic-page ul#checkout-progress {
+    margin-left: 25px;
+    margin-top: 0;
+}
+
+body#signin-basic-page h2#checkout-header {
+    background: url("../images/checkout-icons.png") no-repeat scroll 0 -1px transparent;
+    padding-left: 31px;
+}
+
+body#signin-basic-page #signin-group h4 {
+	margin-left: 20px;
+}
+
+body#signin-basic-page label{
+	display:block;
+	line-height: 1.75em;
+    margin-left: 0px;
+	float:none;
+}
+
+body#signin-basic-page form div {
+	float:none;
+}
+
+body#signin-basic-page .form-container{
+    width: 275px;
+	border:0;
+	margin-left:20px;
+}
+
+body#signin-basic-page form.signin-form{
+    width: 275px;
+	border:0;
+}
+
+body#signin-basic-page .benifits {
+    background: none repeat scroll 0 0 transparent;
+    margin: 0px 20px 0 20px;
+    padding: 10px 10px 20px 0;
+    width: 260px;
+	float:left;
+	border-right: 1px solid #abc2d9;
+	border-left:none;
+	border-top:none;
+	border-bottom:none;
+}
+
+body#signin-basic-page #new-users-signup {
+    background-color: #e6eef6;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 20px 0;
+}
+
+
+
+body#signin-basic-page .benifits p{
+	color:#175892;
+}
+
+body#signin-basic-page #new-users-signup input.required {
+    background-color: #fff;
+}
+
+body#signin-basic-page #content input.text{
+    float: none;
+    margin-bottom: 5px;
+    margin-top: 0;
+    width: 255px;
+}
+
+h2.long-and-grey{ /* check forgotpassword.php page before changing bottom margin */
+	text-indent: .5em;
+	color: #ffffff;
+	font-size: 15px;
+	line-height:1.7;
+	background-color:#175892;
+}
+
+body#signin-basic-page form.contacting input[type="radio"], body#signin-basic-page form.contacting input[type="checkbox"]{
+    margin-left: 0;
+    margin-top: 2px;
+	top:1px;
+}
+
+body#signin-basic-page #signin-group{
+	margin-top:10px;
+	border-left: 1px solid #E6E6E6;
+    border-right: 1px solid #E6E6E6;
+	border-bottom: 1px solid #E6E6E6;
+}
+
+body#signin-basic-page #returning-users-signin {
+    float: left;
+    margin-bottom: 0;
+    margin-top: 20px;
+    overflow: visible;
+    padding: 0;
+}
+
+body#signin-basic-page #new-users-signup .form-container, body#signin-basic-page #new-users-signup form {
+    background: none repeat scroll 0 0 transparent;
+}
+
+
+body#signin-basic-page div.grad-footer{
+	margin-top:-5px;
+	padding-top:0;
+}
+
+body#signin-basic-page .form-container {
+    background: none repeat scroll 0 0 #fff;
+}
+
+body#signin-basic-page #signin-group .button{
+	margin-top:10px;
+	margin-right: 20px;
+}
+
+body#signin-basic-page #new-users-signup ul li {
+    float: none;
+    overflow: visible;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-top: 5px;
+	list-style-type:disc;
+	list-style-position:inside;
+	line-height:1em;
+	color:#175892;
+}
+
+
+body#signin-basic-page #returning-user-signins #forgot-password {
+    clear: both;
+    display: block;
+    padding: 10px 10px 0 0;
+    text-align: right;
+}
+
+body#signin-basic-page #returning-user-signins #remember-password {
+	float:left;
+}
+
+
+body#signin-basic-page #security-blurb{
+	padding-bottom:30px;
+	padding-left:10px;
+	clear:both;
+	padding-top: 10px;
+}
+
+
+body#signin-basic-page #security-blurb p{
+	float:left;
+	padding:0;
+}
+
+body#signin-basic-page #security-blurb a {
+    margin-left: 0px;
+}
+
+body#signin-basic-page #security-blurb a span.arrow {
+    height: 13px;
+}
+
+body#signin-basic-page div.AuthorizeNetSeal {
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+
+
+
+
+/* ---------- checkout page --------------- */
+
+
+body#checkout-page .contacting cite:before {
+	left: 64px;
+}
+
+body#checkout-page .contacting div#shipping-options cite {
+	margin-left: 0;
+	width: 90%;
+	text-align: left;
+}
+
+body#checkout-page .contacting div#shipping-options cite:before {
+	display: none;
+}
+
+body#checkout-page .credit-card-expires div {
+	float: left;
+	width: 162px;
+}
+
+body#checkout-page .credit-card-expires div cite {
+	margin-left: 0;
+}
+
+body#checkout-page .contacting div#shipping-options cite:after {
+	content: "\00a0";
+
+
+/* reduce the damage in FF3.0 */
+	position: absolute;
+	z-index: 30;
+	top: 33px;
+	left: 50px;
+	width: 0;
+	height: 0;
+	border: 10px solid transparent;
+	border-top-color: #B00000;
+	display: block;
+}
+
+
+body#checkout-page #place-order-container-bottom h5, body#checkout-page #place-order-container-bottom h6 {
+	margin-bottom:0;
+}
+
+body#checkout-page form.contacting #email-address {
+    line-height: 3em;
+    padding-left: 30px;
+}
+
+body#checkout-page form.contacting #newsletter-signup{
+	margin-top:10px;
+}
+
+body#checkout-page #billing-add, body#checkout-page #shipping-address {
+    float: left;
+    padding: 0 25px 10px;
+    width: 420px;
+}
+
+body#checkout-page #billing-add, body#checkout-page #shipping-address{
+    margin-top: 20px;
+}
+
+body#checkout-page #billing-add, body#checkout-page #billing-det{
+	clear:left;
+}
+
+body#checkout-page #billing-det, body#checkout-page #shipping-det{
+	padding:0;
+	width:430px;
+	float:left;
+}
+
+body#checkout-page #billing-det {
+	padding-right:20px;
+	border-right: 1px solid #E6E6E6;
+	margin-bottom:20px;
+}
+
+body#checkout-page #shipping-det {
+	padding-left:20px;
+}
+
+
+body#checkout-page #shipping-address{
+	border-left: 1px solid #E6E6E6;
+	margin-bottom:20px;
+}
+
+body#checkout-page #po-number{
+	border-left: 1px solid #E6E6E6;
+	border-right: 1px solid #E6E6E6;
+	margin-bottom:20px;
+}
+
+body#checkout-page #shipping-address {
+    float: left;
+    margin-bottom: 20px;
+}
+
+body#checkout-page #address-verification p{
+	float:left;
+}
+
+body#checkout-page #addresses-details {
+    border-top: 1px solid #E6E6E6;
+    clear: both;
+    margin: 0 20px;
+    padding-top: 20px;
+}
+
+body#checkout-page label {
+    display: inline-block;
+    float: none;
+    width: 100px;
+	margin-left:0;
+}
+
+body#checkout-page label.error {
+    background: none repeat scroll 0 0 #DA0000;
+    color: white;
+    line-height: 14px;
+    margin-left: -55px;
+    margin-top: 7px;
+    position: absolute;
+    width: auto;
+    z-index: 99999;
+}
+
+body#checkout-page label.error:before{
+	border-color: transparent #DA0000 transparent transparent;
+    border-style: solid;
+    border-width: 12px;
+    content: " ";
+    display: block;
+    height: 0;
+    left: -24px;
+    position: absolute;
+    top: -1px;
+    width: 0;
+}
+
+body#checkout-page .phone-number, body#checkout-page #credit-card-expires-container{
+	position:relative;
+}
+
+body#checkout-page .phone-number label.error{
+	right: -107px;
+}
+
+body#checkout-page #security-code-wrapper label.error{
+	 right: 126px;
+}
+
+body#checkout-page #credit-card-expires-container label.error{
+	right: -75px;
+}
+
+body#checkout-page input{
+	float:none;
+}
+
+body#checkout-page #copy-billing{
+	float:left;
+	margin-right:10px;
+}
+
+body#checkout-page #place-order-container-bottom h5{
+	font-size:20px;
+}
+
+body#checkout-page td, body#checkout-page tr, body#checkout-page th{
+	border:none;
+	padding: 5px;
+}
+
+body#checkout-page td.freight{
+	padding-left:10px;
+}
+
+
+
+body#checkout-page #expediated-shipping{
+	margin-top:10px;
+	border-top: 1px solid #E6E6E6;
+	padding-top:10px;
+}
+
+body#checkout-page #expediated-shipping h5{
+	margin-bottom:0;
+}
+
+body#checkout-page #verifyaddress{
+	border-top: 1px solid #175892;
+}
+
+body#checkout-page #verifyaddress p{
+	font-weight:normal;
+}
+
+body#checkout-page #verifyaddress h5{
+	margin-left:10px;
+	padding-top:10px;
+}
+
+body#checkout-page #verifyaddress ul, body#checkout-page #verifyaddress li{
+	width:100%;
+}
+
+body#checkout-page table#ups-rates th{
+	background:none;
+	padding-left:0;
+}
+
+body#checkout-page #no-shipping-notice, body#checkout-page #shipping-options2{
+	display:none;
+}
+
+body#checkout-page #shipping-method-info{
+	float:left;
+}
+
+body#checkout-page .special-payment {
+    float: left;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    width: 275px;
+}
+
+body#checkout-page div#save-credit-card-info, body#checkout-page div#address-verification {
+    background-color: #DAE6F0;
+    padding: 10px;
+}
+
+body#checkout-page input.text{
+    width: 260px;
+}
+
+body#checkout-page .special-payment label, body#checkout-page .wide-label label {
+	width: auto;
+	padding-right:10px;
+	line-height: 20px;
+}
+
+body#checkout-page .special-payment p{
+	margin-left:0;
+	clear:both;
+}
+
+body#checkout-page div.verification-container div.grad-footer {
+    margin-top: 10px;
+}
+
+body#checkout-page div.verification-group {
+    border-left: 1px solid #E6E6E6;
+    border-right: 1px solid #E6E6E6;
+    border-bottom: 1px solid #E6E6E6;
+    margin-bottom: -5px;
+}
+
+body#checkout-page select.wide-dropdown{
+	width:280px;
+	margin-bottom:20px;
+}
+
+body#checkout-page #shipping-same-as{
+	width:310px;
+	margin-bottom:20px;
+}
+
+body#checkout-page #shipping-same-as input{
+	top:-1px;
+}
+
+body#checkout-page input#coupon-code {
+    margin-left:0;
+}
+
+body#checkout-page #po-number div{
+	margin-bottom:10px;
+}
+
+body#checkout-page #tax-exempt div, #no-shipping-notice{
+	padding-right:20px;
+}
+
+body#checkout-page #tax-exempt .notice, #no-shipping-notice.notice {
+	border: 1px solid #F61A14;
+	background:#fed9d8;
+	color:#F61A14;
+}
+
+body#checkout-page .contacting div.shipping-options cite:after {
+	content: "\00a0";
+
+/* reduce the damage in FF3.0 */
+	position: absolute;
+	z-index: 30;
+	top: 27px;
+	left: 50px;
+	width: 0;
+	height: 0;
+	border: 10px solid transparent;
+	border-top-color: #B00000;
+	display: block;
+}
+
+body#checkout-page #order-review h5{
+	margin-left:20px;
+	margin-top:20px;
+	float:left;
+}
+
+body#checkout-page div#order-history-header{
+	clear:both;
+	background: none no-repeat scroll 0 0 #e6eef6;
+}
+
+body#checkout-page #order-review dd{
+	float:left;
+	font-weight:bold;
+}
+
+body#checkout-page #order-history-wrapper{
+	padding:0 20px;
+	border:none;
+}
+
+body#checkout-page .edit-cart-button {
+    margin: 15px 30px 20px 0;
+}
+
+body#checkout-page .ups-service-name input, body#checkout-page .payment-method input{
+	top:1px;
+}
+
+body#checkout-page .ups-service-name span{
+	margin-top:5px;
+}
+
+body#checkout-page table#ups-rates {
+    margin-bottom: 0;
+    width: 430px;
+}
+
+body#checkout-page table#ups-rates td.price{
+	width:60px;
+	text-align:left;
+}
+
+body#checkout-page table#ups-rates td.shipping-dates{
+	text-align:left;
+	padding-left:10px;
+	width:140px;
+}
+
+body#checkout-page div.expediated-shipping h5 {
+    margin-left: 0px;
+}
+
+body#checkout-page div.expediated-shipping {
+    background-color: #e6eef6;
+    color: #0f3d65;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+body#checkout-page div.expediated-shipping textarea {
+    margin-top: 5px;
+    width: 100%;
+}
+
+body#checkout-page #arrival-date-disclaimer {
+	margin:10px 0 15px 5px;
+}
+
+
+body#checkout-page #edit-cart-button{
+	position:relative;
+}
+
+body#checkout-page #edit-cart-button div{
+    float: left;
+	padding:10px;
+	margin:10px 0;
+	border: 1px solid #F61A14;
+	display:none;
+	background:#fed9d8;
+	position:absolute;
+	right: 20px;
+    top: -80px;
+    z-index: 9999;
+}
+
+body#checkout-page #edit-cart-button h4 {
+    color: #F61A14;
+    float: none;
+    margin-bottom: 0;
+}
+
+body#checkout-page #edit-cart-button #cancel-edit-cart{
+    float: right;
+	cursor:pointer;
+}
+
+body#checkout-page #edit-cart-button div p{
+	color:#F61A14;
+}
+
+body#checkout-page .price-per, body#checkout-page .price-total, body#checkout-page div#order-history-header p.price-total{
+	width:100px;
+	text-align:center;
+	margin-right:0;
+}
+
+body#checkout-page #order-comments {
+	margin-top:20px;
+	padding-left:20px;
+}
+
+/*body#checkout-page #order-history {
+	border-bottom:1px solid #E6E6E6;
+}*/
+
+body#checkout-page #shopping-cart-subtotal {
+	margin-top:20px;
+	margin-bottom:10px;
+}
+
+body#checkout-page #place-order, body#checkout-page .payment-method p{
+	margin-top:20px;
+}
+
+body#checkout-page textarea#special_comments {
+    width: 400px;
+	height: 120px;
+}
+
+body#checkout-page .payment-method{
+	margin-bottom:20px;
+}
+
+body#checkout-page .payment-method div{
+	margin-left:15px;
+}
+
+body#checkout-page .payment-method #saved-card-number{
+	margin-left:0;
+}
+
+body#checkout-page #save-credit-card-info span {
+    font-size: 12px;
+	font-weight:normal;
+}
+
+body#checkout-page #save-credit-card-info{
+	width:400px;
+}
+
+body#checkout-page #pay-by-this-method ul li {
+    padding: 5px 10px;
+    text-align: center;
+    width: 190px;
+}
+
+body#checkout-page #card-expiration{
+    padding-left: 30px;
+    width: auto;
+}
+
+body#checkout-page .place-order-container div {
+    width: 930px;
+}
+
+body#checkout-page #special-comments {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+body#checkout-page #shopping-cart-subtotal button#continue-order{
+	margin:	20px 10px;
+}
+
+body#checkout-page #invoice-subtotals {
+    height: 100%;
+}
+
+body#checkout-page .row{
+	margin-bottom:10px;
+}
+
+body#checkout-page label#credit-card-number-label span.text {
+    float: none;
+}
+
+body#checkout-page #security-code-wrapper{
+	position:relative;
+}
+
+body#checkout-page div#security-code-help-information{
+	left: 10px !important;
+    position: absolute !important;
+    top: -320px !important;
+	background: none repeat-x scroll 0 0 #d6e6c2 !important;
+}
+
+
+body#checkout-page #security-code-help-wrapper {
+    display: block;
+    left: 150px;
+    position: absolute;
+    top: 7px;
+    z-index: 999;
+}
+
+body#checkout-page a#security-code-help.help {
+    margin-left: 0px;
+    margin-top: 0px;
+    position: relative;
+	display:inline;
+}
+
+body#checkout-page p#net30-pitch {
+    margin-left: 0px;
+}
+
+body#checkout-page #payment-method-chooser li a{
+	color:#ffffff;
+	font-weight:bold;
+	width:190px;
+	display:inline-block;
+}
+
+body#checkout-page #payment-method-chooser li a:hover{
+	color:#fff;
+	font-weight:bold;
+}
+
+body#checkout-page #payment-method-chooser li.selected a{
+	color:#fff;
+	font-weight:bold;
+}
+
+body#checkout-page #payment-method-chooser li.selected a:hover{
+	color:#fff;
+	font-weight:bold;
+}
+
+body#checkout-page #payment-method-chooser li#credit.selected, body#checkout-page #payment-method-chooser li#credit.selected:hover{
+	padding-right: 10px;
+	height:20px;
+	background-color:#175892;
+}
+
+body#checkout-page #payment-method-chooser li#credit{
+	background: #90b657;
+	height:20px;
+}
+
+body#checkout-page #payment-method-chooser li#credit:hover{
+	padding-right: 10px;
+	height:20px;
+	background-color:#6d8c3d;
+}
+
+body#checkout-page #payment-method-chooser li#brimar.selected, body#checkout-page #payment-method-chooser li#brimar.selected:hover{
+	height:20px;
+	padding-right:10px;
+	margin-left: 15px;
+	background-color:#175892;
+}
+
+
+body#checkout-page #payment-method-chooser li#brimar{
+	background:#90b657;
+	height:20px;
+	margin-left: 15px;
+}
+
+body#checkout-page #payment-method-chooser li#brimar:hover{
+	padding-right: 10px;
+	height:20px;
+	margin-left: 15px;
+	background-color:#6d8c3d;
+}
+
+
+body#checkout-page #shipping-address .highlight{
+	background-color: #D6E6C2;
+    margin-left: -10px;
+    padding: 0 10px;
+}
+
+body#checkout-page div#invoice-subtotals .total-price {
+    font-size: 1.75em;
+    font-weight: bold;
+}
+
+body#checkout-page h3 {
+    background-color: #175892;
+    border: 1px solid #175892;
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 0;
+    text-indent: 0.5em;
+}
+
+body#checkout-page p#place-button-disclaimer{
+    clear: both;
+    text-align: right;
+    margin-right: 10px;
+}
+
+body#checkout-page #shipping-address #ship-policies {
+    color: #444444;
+    margin-left: 0px;
+	margin-bottom:10px;
+}
+
+body#checkout-page #ship-phone-number1, body#checkout-page #ship-phone-number2, body#checkout-page #bill-phone-number1, body#checkout-page #bill-phone-number2 {
+	width: 60px;
+}
+
+body#checkout-page #ship-phone-number3, body#checkout-page #bill-phone-number3 {
+	width: 70px;
+}
+
+body#checkout-page .error-message{
+	clear:both;
+}
+
+body#checkout-page div#checkout-support-links {
+	margin-top:25px;
+	text-align:center;
+}
+
+
+body#checkout-page #security-code-wrapper div.message.tooltip:after{
+	content:"\00a0";
+	display:block; /* reduce the damage in FF3.0 */
+	position:absolute; /* value = - border-top-width - border-bottom-width */
+	left: -20px; /* controls horizontal position */
+	width:0;
+	height:0;
+	border-width:0; /* vary this value to change the angle of the vertex */
+	border-bottom-width:20px; /* vary this value to change the height of the triangle. must be equal to the corresponding value in :after */
+border-top: 10px solid transparent;
+border-right: 20px solid #90B557;
+border-bottom: 10px solid transparent;
+	border-top-color: transparent;
+	top: 72%;
+}
+
+
+body#checkout-page #ups-rates th:hover{
+	color:#0f3d65;
+}
+
+.error-message-generated p{
+	color:#fff;
+	font-weight:normal;
+}
+
+.error-message-generated a{
+	color:#153E54;
+}
+
+.error-message-generated a:hover{
+	color:#fff;
+}
+
+body#checkout-page #coupon_message span{
+	display:block;
+	color: #375a2a;
+	background-color: #D9EDE5;
+	border:1px solid #375a2a;
+	clear: both;
+	margin-bottom: 10px;
+    position: relative;
+    top: 10px;
+}
+
+body#checkout-page #coupon_message_error span{
+	background: none repeat scroll 0 0 #FBE3E4;
+    border: 1px solid #F61A14;
+    clear: both;
+    color: #F61A14;
+    display: block;
+    margin-bottom: 10px;
+    position: relative;
+    top: 10px;
+}

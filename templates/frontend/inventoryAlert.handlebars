@@ -1,0 +1,56 @@
+<div class="cart-inventory-alert">
+
+    <p class="h2">Cart Changes Required</p>
+    <p>The following items need to be updated before checking out.</p>
+
+    <table class="shopping-cart-table ia-table">
+        <thead>
+            <tr class="shopping-cart-header span-24 prepend-top">
+                <th class="text-center">Item Image</th>
+                <th>Item Description</th>
+                <th class="ia-quantity">Quantity</th>
+                <th>Each</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each products}}
+                <tr class="items-list" data-cart-product-id="{{id}}">
+                    <td class="sign-thumb span-5">
+                        <img src="{{image}}" alt="{{sku}}">
+                    </td>
+                    <td class="item-descriptions span-9">
+                        <div class="product-name">{{name}}</div>
+                        <ul class="product-details-list">
+                            <li><span class="bold">Item #:</span> <span class="cartproduct-sku">{{sku}}</span></li>
+                            <li><span class="bold">Size:</span> {{size}}</li>
+                            <li><span class="bold">Material:</span> {{material}}</li>
+                        </ul>
+                    </td>
+                    <td class="qty-forms-in-shopping-cart span-4 ia-quantity">
+                        {{#if inventory}}
+                            <input type="number" class="add-to-cart-input text" value="{{quantityInCart}}" />
+                            <p class="small-text left-side first-margin top-space note-text">Total in cart: <span class="cart-qty">{{totalInCart}}</span></p>
+                            <p class="clear inventory-alert"><span class="h4 inventory-alert">Only <span>{{inventory}}</span> In Stock</span><br>Update quantity and apply below.</p>
+                        {{else}}
+                            <p class="clear  inventory-alert"><span class="h4 inventory-alert">No Longer In Stock</span><br>This item will be deleted from your cart.</p>
+                            <p class="small-text note-text">Total in cart: <span class="cart-qty">{{totalInCart}}</span></p>
+                        {{/if}}
+                    </td>
+                    <td class="price-per span-3">{{formatPrice unitPrice}}</td>
+                    <td class="price-total span-3 last">{{formatPrice totalPrice}}</td>
+                </tr>
+            {{/each}}
+        </tbody>
+    </table>
+
+    <div class="left-side">
+        <p><span class="h3">Need help?</span> Call us at 1-800-274-6271.</p>
+    </div>
+
+    <div class="right-side">
+        <div class="button inventory-alert-dismiss">Ask Me Later</div>
+        <div class="button green inventory-alert-apply">Apply All Changes &amp; Continue</div>
+    </div>
+
+</div>

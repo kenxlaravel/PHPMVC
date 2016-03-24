@@ -1,0 +1,22 @@
+<a href="{{cartLink}}">
+	<p class="underline">View Cart</p>
+	{{#if items}}
+		<ul>
+			{{#each items}}
+				<li>
+					<div class="minicart-image"><img src="{{this.image}}"></div>
+					<div class="minicart-details">
+						<p class="mini-name">{{this.name}}</p>
+						<p>Quantity: {{this.quantity}}</p>
+					</div>
+				</li>
+			{{/each}}
+		</ul>
+	{{/if}}
+	{{#if additionalItemsText}}
+		<div><p class="more-items">{{additionalItemsText}}</p></div>
+	{{/if}}
+	<p class="minicart-subtotal"><span>Subtotal:</span> <span class="minicart-subtotal-price">{{formatPrice totalPrice}}</span></p>
+	<p class="button orange">{{buttonText}}</p>
+</a>
+<div class="low-price clearfix"><a href="{{guaranteeLink}}">Low Price Guarantee <span class="no-underline">Learn more</span></a></div>

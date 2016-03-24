@@ -1,0 +1,67 @@
+<!-- Data passed straight through from /cart-details -->
+
+	<div class="container">
+
+		<div class="cart-details-table-wrap">
+			<p class="h3 append-bottom-20 clear text-left">{{name}}</p>
+			<table>
+				<thead>
+					<tr class="items-list">
+						<th class="text-center span-5">Item Image</th>
+						<th class="span-3">Item Description</th>
+						<th>Quantity</th>
+						<th>Each</th>
+						<th>Price</th>
+						<th></th>
+					</tr>
+				</thead>
+				<tbody>
+					{{#each savedCarts}}
+					<tr class="items-list" data-cart-product-id="{{this.description.item_number}}" data-cart-product-qty="{{this.quantity}}">
+						<td class="sign-thumb span-5"><a href="{{this.description.url}}"><img alt="{{this.description.item_number}}" src="{{this.description.image}}"></a></td>
+						<td class="item-descriptions">
+							<div class="product-name">
+								<a href="{{this.description.url}}">{{this.description.title}}</a>
+							</div>
+							<div class="product-mutcd">{{this.description.subtitle}}</div>
+							<ul class="product-details-list">
+								<li><span class="bold">Item #:</span> {{this.description.item_number}}</li>
+								<li><span class="bold">Size:</span> {{this.description.size}}</li>
+								<li><span class="bold">Material:</span> {{this.description.material}}</li>
+								{{#if this.description.accuracyImage}}<li><span class="bold">Preview: </span><span class="cartproduct-preview">Image to the left is for text confirmation purposes only. <a href="/images/help-elements/street-name-popups/{{this.description.accuracyImage}}" class="zoom underline no-wrap">Click here</a> to see a sample of our print quality.</span></li>{{/if}}
+							</ul>
+							{{#if this.details}}
+								<div class="custom-attributes collapsed">
+									<p class="additional-details-header">Additional Details</p>
+									<ul>
+										{{#each this.details}}
+												<li><span class="bold">{{@key}}:</span> {{this}}</li>
+										{{/each}}
+									</ul>
+								</div>
+							{{/if}}
+						</td>
+						<td class="qty-forms-in-shopping-cart">{{this.quantity}}</td>
+						<td class="price-per">$<span class="unitprice">{{formatPrice this.unit_price ""}}</span></td>
+						<td class="price-total last">$<span class="totalprice">{{formatPrice this.total_price ""}}</span></td>
+					</tr>
+					{{/each}}
+				</tbody>
+			</table>
+		</div>
+		<div class="left-side span-7 saved-cart-notes">
+			{{#if note}}<p class="bold">Notes:</p>
+			<div class="append-bottom">
+				<div>{{breaklines note}}</div>
+			</div>
+			{{/if}}
+			<p class="saved-cart-delete prepend-top">
+				<div class="append-bottom-20"><a href="[[pageUrl printsavedcart html]]?cart={{cartHash}}" class="button blue print-cart" target="_blank">Print Cart</a> <a href="[[pageUrl printsavedcart html]]?cart={{cartHash}}" class="button blue emailer" target="_blank">Email Cart</a></div>
+				<a href="" class="delete-cart-btn delete button red small-text"><i class="sprite sprite-delete-white"></i> Delete Cart</a>
+			</p>
+		</div>
+		<div class="right-side text-right">
+			<p class="font-18 prepend-top-5"><span class="bold">Subtotal:</span> {{formatPrice subtotal}}</p>
+			<a class="button green load right-side">Load Cart</a>
+		</div>
+	</div>

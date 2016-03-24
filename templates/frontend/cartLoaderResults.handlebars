@@ -1,0 +1,35 @@
+{{#if savedCarts}}
+<p class="h3 left-side">Load A Saved Cart</p>
+{{#compare savedCartsCount ">" minDisplay}}<span class="small-text note-text right-side prepend-top">Showing {{minDisplay}} of {{savedCartsCount}} saved carts (<a href="{{savedCartsUrl}}" class="underline">View all</a>)</span>{{/compare}}
+<div class="prepend-top clear">
+
+	<table class="saved-cart-viewer">
+		<thead>
+			<tr>
+				<th>Cart Name</th>
+				<th>Date</th>
+				<th>Total Qty.</th>
+				<th>Choose Cart</th>
+			</tr>
+		</thead>
+		<tbody>
+			{{#each savedCarts}}
+			<tr class="saved-cart" data-saved-cart-id-hash="{{idHash}}">
+				<td>{{#truncateString name 24}}{{name}}{{/truncateString}}</td>
+				<td>{{formatDate date}}</td>
+				<td>{{quantity}}</td>
+				<td><p class="button green small-text load-cart">Load Cart</p></td>
+			</tr>
+			{{/each}}
+		</tbody>
+	</table>
+</div>
+<div class="load-cart-controls prepend-top">
+	<div class="left-side"><span class="button load-cancel">Cancel</span></div>
+	<p class="right-side"><a href="{{savedCartsUrl}}" class="underline">{{#compare savedCartsCount ">" minDisplay}}View more saved carts &amp; details{{/compare}}{{#compare savedCartsCount "<=" minDisplay}}View saved cart details{{/compare}}</a><span> &#9658;</span></p>
+</div>
+{{else}}
+<p class="h3">You have no saved carts</p>
+<p>You can save your current cart for later</p>
+
+{{/if}}

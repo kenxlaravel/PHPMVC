@@ -1,0 +1,156 @@
+#ada-bystate #product-category-intro{
+	padding: 5px 10px 10px;
+    width: 350px;
+}
+
+#ada-bystate #product-category-intro h2{
+	line-height:1.1em;
+}
+
+#ada-bystate #product-intro-filtering {
+    float: left;
+    margin-top: 10px;
+}
+
+#ada-bystate #product-intro-filtering{
+    float: right;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    width: 220px;
+}
+
+#ada-bystate #filtering-intro label{
+	color: #246495;
+    font-weight: normal;
+}
+
+#ada-bystate #filtering-intro{
+    background: none repeat scroll 0 0 #FF9108;
+    float: left;
+    height: 37px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 710px;
+}
+
+#ada-bystate #product-intro-filtering #filtering-intro{
+	float: left;
+    margin-bottom: 10px;
+    width: 224px;
+}
+
+#ada-bystate #product-intro-filtering #filtering-intro h3{
+	font-size:14px;
+	color:#fff;
+}
+
+#ada-bystate div.product-container{
+	width: 140px;
+	height:230px;
+}
+
+#ada-bystate div.product-subcategory-group h3, #ada-bystate h3#filtered-category {
+    border-style: none;
+    width: 710px;
+	color:#024378;
+}
+
+#ada-bystate #product-browse-footer{
+	width: 946px;
+}
+
+#ada-bystate .product-subcategory-group p.category-intro{
+	padding: 5px 10px;
+}
+
+#ada-bystate .vertical-center-me p{
+    line-height: 1.1em;
+    font-size:10px;
+}
+
+#ada-bystate #image-map{
+	margin: 20px auto;
+    padding: 0;
+    width: 710px;
+}
+
+#ada-bystate #product-links {
+    padding: 0;
+    width: 280px;
+}
+
+#ada-bystate #product-links ul li {
+    margin-right: 0px;
+	float:none;
+}
+
+#ada-bystate #product-links ul {
+    margin: 0px;
+	padding: 0;
+}
+
+#ada-bystate #filtering-dropdown{
+	clear: both;
+    float: right;
+    padding: 7px 10px;
+}
+
+#ada-bystate #filtering-dropdown h3 {
+    color: #FFFFFF;
+    float: left;
+    margin-right: 12px;
+    margin-top: 2px;
+}
+
+#ada-bystate #filtering-dropdown label{
+	float:left;
+}
+
+#ada-bystate #filtering-dropdown form{
+	float: left;
+    margin-bottom: 20px;
+    width: 150px;
+}
+
+#fun-facts, #fun-facts-response{
+    float: left;
+    margin-top: 0;
+    width: 330px;
+	border-left: 1px solid #003764;
+}
+
+#activenew{
+	 float: left;
+    width: 700px;
+	margin-left:10px;
+}
+
+#active, #response{
+	 float: left;
+    margin-left: 10px;
+    width: 710px;
+}
+
+#navigation-dropdown{
+	float: left;
+    width: 230px;
+}
+
+#ada-bystate .product_details_content .close{
+	display:none;
+}
+
+span.federal{
+    color: #024378;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.image-padding{
+	padding-bottom: 20px;
+}
+
+#ada-bystate #fancybox-inner p, #ada-bystate #fancybox-inner h5, #ada-bystate #fancybox-inner li, #ada-bystate #fancybox-inner dd, #ada-bystate #fancybox-inner dt{
+	text-align:left !important;
+}

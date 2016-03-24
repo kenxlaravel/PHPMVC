@@ -1,0 +1,1558 @@
+
+
+@font-face {
+    font-family: 'DINCondBoldRegular';
+    src: url('webfontkit/dincond-bold-webfont.eot');
+    src: url('webfontkit/dincond-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfontkit/dincond-bold-webfont.woff') format('woff'),
+         url('webfontkit/dincond-bold-webfont.ttf') format('truetype'),
+         url('webfontkit/dincond-bold-webfont.svg#DINCondBoldRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'ClarendonBTBold';
+    src: url('webfontkit/tt0284m_-webfont.eot');
+    src: url('webfontkit/tt0284m_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfontkit/tt0284m_-webfont.woff') format('woff'),
+         url('webfontkit/tt0284m_-webfont.ttf') format('truetype'),
+         url('webfontkit/tt0284m_-webfont.svg#ClarendonBTBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Century751SeBdBTSemiBold';
+    src: url('webfontkit/tt1182m_-webfont.eot');
+    src: url('webfontkit/tt1182m_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfontkit/tt1182m_-webfont.woff') format('woff'),
+         url('webfontkit/tt1182m_-webfont.ttf') format('truetype'),
+         url('webfontkit/tt1182m_-webfont.svg#Century751SeBdBTSemiBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'AlgerianRegular';
+    src: url('webfontkit/alger-webfont.eot');
+    src: url('webfontkit/alger-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfontkit/alger-webfont.woff') format('woff'),
+         url('webfontkit/alger-webfont.ttf') format('truetype'),
+         url('webfontkit/alger-webfont.svg#AlgerianRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'BrushScriptStdMedium';
+    src: url('webfontkit/brushscriptstd-webfont.eot');
+    src: url('webfontkit/brushscriptstd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfontkit/brushscriptstd-webfont.woff') format('woff'),
+         url('webfontkit/brushscriptstd-webfont.ttf') format('truetype'),
+         url('webfontkit/brushscriptstd-webfont.svg#BrushScriptStdMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'Swis721CnBTBold';
+    src: url('webfontkit/swisscb-webfont.eot');
+    src: url('webfontkit/swisscb-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfontkit/swisscb-webfont.woff') format('woff'),
+         url('webfontkit/swisscb-webfont.ttf') format('truetype'),
+         url('webfontkit/swisscb-webfont.svg#Swis721CnBTBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'TektonProBold';
+    src: url('webfontkit/tektonpro-bold-webfont.eot');
+    src: url('webfontkit/tektonpro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfontkit/tektonpro-bold-webfont.woff') format('woff'),
+         url('webfontkit/tektonpro-bold-webfont.ttf') format('truetype'),
+         url('webfontkit/tektonpro-bold-webfont.svg#TektonProBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ZapfHumnstUltBTUltra';
+    src: url('webfontkit/tt0136m-webfont.eot');
+    src: url('webfontkit/tt0136m-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfontkit/tt0136m-webfont.woff') format('woff'),
+         url('webfontkit/tt0136m-webfont.ttf') format('truetype'),
+         url('webfontkit/tt0136m-webfont.svg#ZapfHumnstUltBTUltra') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FuturaMdBTBold';
+    src: url('webfontkit/tt0144m_-webfont.eot');
+    src: url('webfontkit/tt0144m_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfontkit/tt0144m_-webfont.woff') format('woff'),
+         url('webfontkit/tt0144m_-webfont.ttf') format('truetype'),
+         url('webfontkit/tt0144m_-webfont.svg#FuturaMdBTBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body.custom a.preview-pricing {background-image:none;}
+
+.custom #product-links ul {
+    margin: 0;
+}
+
+.labels p{margin-bottom:0;}
+
+.add-delete {display:none;}
+
+.accesory-product-container .thumbnail{
+	margin-bottom:20px;
+}
+
+#fontList p{
+	font-size:20px;
+	margin-bottom:0;
+}
+/*start update 3-29-2012*/
+#sign_background{
+    width:auto;
+}
+/*end update 3-29-2012*/
+.product-customization select{
+	margin:.25em 0;
+}
+
+#product-options{
+	min-height:180px;
+	}
+
+#custom-interface span.step_counter {
+	background-color: #FFFFFF;
+	border-radius: 20px 20px 20px 20px;
+	color: #444444;
+	display: block;
+	float: left;
+	font-size: 11px;
+	height: 15px;
+	line-height: 12px;
+	margin-right: 5px;
+	text-align: center;
+	width: 15px;
+}
+
+#custom-interface .accesory-product-container span{
+	margin-left:0;
+}
+
+#custom-interface .accesory-product-container .pricing-row td{
+	height:50px;
+}
+
+
+
+h3#start-here{
+	color: #246495;
+    font-size: 16px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+#custom-tool-options div h3{
+	background: none repeat scroll 0 0 #246495;
+	color: #fff;
+	font-size: 13px;
+	margin-top: 5px;
+	padding: 5px;
+}
+
+#pricing h3{
+	background: none repeat scroll 0 0 #246495;
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 5px;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+#upload-instructions{
+	display:none;
+}
+
+.option_container{
+	margin-bottom:10px;
+}
+
+#show-inst{
+	margin-top:10px;
+}
+
+
+.product-customization {position:relative;}
+
+#custom-product-images {
+	background-color: transparent;
+	background-repeat: no-repeat;
+	border: 2px solid #FFFFFF;
+	height: 140px;
+	overflow: hidden;
+	position: absolute;
+	right: -20px;
+	top: 10px;
+	vertical-align: middle;
+	width: 600px;
+	position:relative;
+	margin-top:50px;
+}
+#custom-product-images.custom_parking_signs {
+	background-color: transparent;
+	background-repeat: no-repeat;
+	border: 2px solid #FFFFFF;
+	height: 215;
+	overflow: hidden;
+	position: absolute;
+	right: -20px;
+	top: -25px;
+	vertical-align: middle;
+	width: 600px;
+	position:relative;
+	margin-top:50px;
+	height:215px;
+}
+
+.upload .product_text, .Logo .product_text {
+	position:absolute;
+	text-align: center;
+	height: 95px;
+	top:0px;
+	left:120px;
+}
+
+/*.noupload .product_text, .Right-Pointer .product_text {
+	position:absolute;
+	text-align: center;
+	height: 95px;
+	top: 0px;
+	left:50px;
+}*/
+
+
+.noupload .product_text, .Right-Pointer .product_text {
+	position:absolute;
+	text-align: center;
+	height: 95px;
+	left:215px;
+	top:0;
+}
+
+.upload.x9 .product_text, .Load.x9 .product_text {
+	top: -5px;
+}
+
+.noupload.x9 .product_text, .Right-Pointer.x9 .product_text {
+	top: -5px;
+}
+
+.noupload.x9 .product_text, .Right-Pointer.x9 .product_text {
+	top:-5px;
+}
+
+.custom_parking_signs.noupload .product_text {
+	position:absolute;
+	text-align: center;
+	height: 96px;
+	top: 105px;
+	left:215px;
+}
+
+.x6.twoline .product_text, .x4.twoline .product_text {top: -13px;}
+
+.x9.twoline .product_text {top: -17px;}
+
+.Left-Pointer .product_text {left:105px;}
+
+.Round .product_text {left:60px;}
+
+
+
+
+/* --------------- Font Controls ---------------- */
+
+#preview-image, #preview-image .product_text .copy, #suffix p, #prefix p, #streetnum p {
+	color:#fff;
+}
+
+.White #preview-image, .White #preview-image .product_text .copy, .White #suffix p, .White #prefix p,  .White #streetnum p {
+	color:#000;
+}
+.Green-t #preview-image .product_text .copy{
+	color:#217300;
+}
+.Blue-t #preview-image .product_text .copy{
+	color:#246495;
+}
+.Black-t #preview-image .product_text .copy{
+	color:#000;
+}
+
+.Red-t #preview-image .product_text .copy{
+	color:#da0000;
+}
+
+.x6 #preview-image .product_text .line_1, .x4 #preview-image .product_text .line_1{
+	line-height: 1.2em;
+	padding-top: 15px;
+}
+
+.x9 #preview-image .product_text .line_1{
+	line-height: 1.2em;
+	padding-top: 34px;
+}
+
+#preview-image .product_text .line_2 {
+	line-height: 1.2em;
+}
+
+.x6.twoline #preview-image .product_text .line_1, .x4.twoline #preview-image .product_text .line_1 {
+	line-height: 1.4em;
+	margin-bottom: 0;
+	padding-top:10px;
+}
+
+.x9.twoline #preview-image .product_text .line_1 {
+	line-height: 1.4em;
+	margin-bottom: 0;
+	padding-top:26px;
+}
+
+.twoline #preview-image .product_text .line_2 {
+	line-height: 1.2em;
+	margin-bottom: 0;
+	height: 31px;
+	padding-top: 4px;
+}
+
+
+.oneline, .twoline, .Highway p{font-family: 'DINCondBoldRegular', 'Arial', sans-serif;}
+
+.Arial p{font-family: 'Arial', sans-serif;}
+
+.Times_New_Roman p, .Times p{font-family: 'Times New Roman', 'Times', 'Georgia', serif;}
+
+.Clarendon p{font-family: 'ClarendonBTBold', 'Times', 'Georgia', serif;}
+.Century p{font-family: 'Century751SeBdBTSemiBold', 'Times', 'Georgia', serif;}
+.Algerian p{font-family: 'AlgerianRegular', 'Arial', 'Times', 'Georgia', serif;}
+.Brush p{font-family: 'BrushScriptStdMedium', 'Arial', sans-serif;}
+.Swiss p{font-family: 'Swis721CnBTBold', 'Arial', sans-serif;}
+.Tekton p{font-family: 'TektonProBold', 'Arial', sans-serif;}
+.Zapf p{font-family: 'ZapfHumnstUltBTUltra', 'Arial', sans-serif;}
+.Futura p{font-family: 'FuturaMdBTBold', 'Arial', sans-serif;}
+
+
+.x6 #preview-image .product_text .line_1 .copy,.x6.oneline #preview-image .product_text .line_1 .copy, .x4 #preview-image .product_text .line_1 .copy,.x4.oneline #preview-image .product_text .line_1 .copy{font-size:68px;}
+
+.x6.twoline #preview-image .product_text .line_1 .copy, .x4.twoline #preview-image .product_text .line_1 .copy{font-size:42px;}
+
+.x6 #preview-image .product_text .line_2 .copy, .x4 #preview-image .product_text .line_2 .copy{font-size:20px;}
+
+
+.x9 #preview-image .product_text .line_1 .copy,.x9.oneline #preview-image .product_text .line_1 .copy{font-size:95px}
+.x9.twoline #preview-image .product_text .line_1 .copy{font-size:66px; }
+
+.x9 #preview-image .product_text .line_2{font-size:25px; }
+
+
+/* ---   Algerian  ---- */
+
+.x6.Algerian #preview-image .product_text .line_1 .copy,.x6.Algerian.oneline #preview-image .product_text .line_1 .copy, .x4.Algerian #preview-image .product_text .line_1 .copy,.x4.Algerian.oneline #preview-image .product_text .line_1 .copy{font-size:85px; line-height:.35em;}
+
+.x6.Algerian.twoline #preview-image .product_text .line_1 .copy, .x4.Algerian.twoline #preview-image .product_text .line_1 .copy{font-size:51px; line-height:.5em;}
+
+/* ---  Arial --- */
+
+.x6.Arial #preview-image .product_text .line_1 .copy,.x6.Arial.oneline #preview-image .product_text .line_1 .copy, .x4.Arial #preview-image .product_text .line_1 .copy,.x4.Arial.oneline #preview-image .product_text .line_1 .copy{font-size:62px;line-height: .25em;}
+
+.x6.Arial.twoline #preview-image .product_text .line_1 .copy, .x4.Arial.twoline #preview-image .product_text .line_1 .copy{font-size:40px;line-height: 0.5em;}
+
+.x6.Arial #preview-image .product_text .line_2 .copy, .x4.Arial #preview-image .product_text .line_2 .copy{font-size:20px;}
+
+
+/* ---  Brush --- */
+
+.x6.Brush #preview-image .product_text .line_1 .copy,.x6.Brush.oneline #preview-image .product_text .line_1 .copy, .x4.Brush #preview-image .product_text .line_1 .copy,.x4.Brush.oneline #preview-image .product_text .line_1 .copy{font-size:68px;}
+
+.x6.Brush.twoline #preview-image .product_text .line_1 .copy, .x4.Brush.twoline #preview-image .product_text .line_1 .copy{font-size:42px;}
+
+.x6.Brush #preview-image .product_text .line_2 .copy, .x4.Brush #preview-image .product_text .line_2 .copy{font-size:20px;}
+
+
+/* ---  Century --- */
+
+.x6.Century #preview-image .product_text .line_1 .copy,.x6.Century.oneline #preview-image .product_text .line_1 .copy, .x4.Century #preview-image .product_text .line_1 .copy,.x4.Century.oneline #preview-image .product_text .line_1 .copy{font-size:60px;line-height: 0.3em;}
+
+.x6.Century.twoline #preview-image .product_text .line_1 .copy, .x4.Century.twoline #preview-image .product_text .line_1 .copy{font-size:38px;line-height: 0.45em;}
+
+.x6.Century #preview-image .product_text .line_2 .copy, .x4.Century #preview-image .product_text .line_2 .copy{font-size:20px;}
+
+
+/* ---  Clarendon --- */
+
+.x6.Clarendon #preview-image .product_text .line_1 .copy,.x6.Clarendon.oneline #preview-image .product_text .line_1 .copy, .x4.Clarendon #preview-image .product_text .line_1 .copy,.x4.Clarendon.oneline #preview-image .product_text .line_1 .copy{font-size:60px;}
+
+.x6.Clarendon.twoline #preview-image .product_text .line_1 .copy, .x4.Clarendon.twoline #preview-image .product_text .line_1 .copy{font-size:42px;}
+
+.x6.Clarendon #preview-image .product_text .line_2 .copy, .x4.Clarendon #preview-image .product_text .line_2 .copy{font-size:20px;}
+
+
+/* ---  Futura --- */
+
+.x6.Futura #preview-image .product_text .line_1 .copy,.x6.Futura.oneline #preview-image .product_text .line_1 .copy, .x4.Futura #preview-image .product_text .line_1 .copy,.x4.Futura.oneline #preview-image .product_text .line_1 .copy{font-size:58px;line-height: 0.35em;}
+
+.x6.Futura.twoline #preview-image .product_text .line_1 .copy, .x4.Futura.twoline #preview-image .product_text .line_1 .copy{font-size:37px;line-height: 0.5em}
+
+.x6.Futura #preview-image .product_text .line_2 .copy, .x4.Futura #preview-image .product_text .line_2 .copy{font-size:20px;}
+
+
+/* ---  Swiss --- */
+
+.x6.Swiss #preview-image .product_text .line_1 .copy,.x6.Swiss.oneline #preview-image .product_text .line_1 .copy, .x4.Swiss #preview-image .product_text .line_1 .copy,.x4.Swiss.oneline #preview-image .product_text .line_1 .copy{font-size:58px;line-height: 0.35em;}
+
+.x6.Swiss.twoline #preview-image .product_text .line_1 .copy, .x4.Swiss.twoline #preview-image .product_text .line_1 .copy{font-size:39px; line-height:.5em;}
+
+.x6.Swiss #preview-image .product_text .line_2 .copy, .x4.Swiss #preview-image .product_text .line_2 .copy{font-size:20px;}
+
+
+/* ---  Tekton --- */
+.Tekton.x6 #preview-image .product_text .line_1 .copy,.Tekton.x6.oneline #preview-image .product_text .line_1 .copy, .Tekton.x4 #preview-image .product_text .line_1 .copy,.Tekton.x4.oneline #preview-image .product_text .line_1 .copy{font-size:68px;line-height:.3em;}
+
+.Tekton.x6.twoline #preview-image .product_text .line_1 .copy, .Tekton.x4.twoline #preview-image .product_text .line_1 .copy{font-size:42px;line-height:.5em;}
+
+.Tekton.x6 #preview-image .product_text .line_2 .copy, .Tekton.x4 #preview-image .product_text .line_2 .copy{font-size:20px;}
+
+/* ---  Zapf --- */
+.Zapf.x6 #preview-image .product_text .line_1 .copy,.Zapf.x6.oneline #preview-image .product_text .line_1 .copy, .Zapf.x4 #preview-image .product_text .line_1 .copy,.Zapf.x4.oneline #preview-image .product_text .line_1 .copy{font-size:55px;line-height:.4em;}
+
+.Zapf.x6.twoline #preview-image .product_text .line_1 .copy, .Zapf.x4.twoline #preview-image .product_text .line_1 .copy{font-size:37px;line-height:.6em;}
+
+.Zapf.x6 #preview-image .product_text .line_2 .copy, .Zapf.x4 #preview-image .product_text .line_2 .copy{font-size:20px;}
+
+
+
+
+/* --------------- Prefix and Suffix Controls ---------------- */
+#streetnum{
+	position:absolute;
+	height: 50px;
+	text-align: right;
+}
+
+.x6 #streetnum, .x4 #streetnum{
+	top:-5px;
+	width: 30px;
+	right: 13px;
+}
+
+.x9 #streetnum{
+	top:-11px;
+	right:18px;
+	width: 35px;
+}
+
+.s24.x6.Right-Pointer #streetnum, .s18.x6.Right-Pointer #streetnum, .s18.x4.Right-Pointer #streetnum {right: 45px;}
+.s30.x6.Right-Pointer #streetnum {right: 50px;}
+.s36.x6.Right-Pointer #streetnum {right: 53px;}
+.s24.x9.Right-Pointer #streetnum, .s30.x9.Right-Pointer #streetnum, .s36.x9.Right-Pointer #streetnum, .s42.x9.Right-Pointer #streetnum, .s48.x9.Right-Pointer #streetnum {right: 58px;}
+
+#prefix {
+	position:absolute;
+	height: 50px;
+	width: 35px;
+}
+
+#suffix {
+	position:absolute;
+	height: 50px;
+	width: 35px;
+	right: 10px;
+	text-align: right;
+}
+
+.x6.street-num #suffix, .x4.street-num #suffix {
+	top:28px;
+}
+
+.x9.street-num #suffix {
+	top:30px;
+}
+
+.s24.x6 #suffix,.s18.x6 #suffix,.s18.x4 #suffix, .s30.x6 #suffix  {right: 8px;}
+
+.s24.x6.Round #suffix,.s18.x6.Round #suffix, .s18.x4.Round #suffix, .s30.x6.Round #suffix{right: 15px;}
+
+.s36.x6.Round #suffix {right: 16px;}
+
+.s24.x6.Right-Pointer #suffix, .s18.x6.Right-Pointer #suffix, .s18.x4.Right-Pointer #suffix {right: 45px;}
+.s30.x6.Right-Pointer #suffix {right: 50px;}
+.s36.x6.Right-Pointer #suffix {right: 53px;}
+
+.s24.x9 #suffix {right: 13px;}
+
+.s30.x9 #suffix, .s36.x9 #suffix, .s42.x9 #suffix, .s48.x9 #suffix {right: 18px;}
+
+.s24.x9.Right-Pointer #suffix, .s30.x9.Right-Pointer #suffix, .s36.x9.Right-Pointer #suffix, .s42.x9.Right-Pointer #suffix, .s48.x9.Right-Pointer #suffix {right: 58px;}
+
+.Round #suffix{right: 15px;}
+
+.Right-Pointer #suffix{right: 55px;}
+
+.s36 #suffix  {right: 9px;}
+
+.thumbnail{position:relative;height:110px;}
+
+
+.x6 #prefix p, .x6 #suffix p, .x4 #prefix p, .x4 #suffix p{font-size:38px;}
+.x9 #prefix p, .x9 #suffix p{font-size:56px;}
+
+.x6 #streetnum p, .x6.street-num #suffix p, .x4 #streetnum p, .x4.street-num #suffix p{font-size:33px;white-space:nowrap;}
+.x9 #streetnum p, .x9.street-num #suffix p{font-size:51px;white-space:nowrap;}
+
+.T.x6 #prefix, .T.x6 #suffix{top:-6px;}
+.M.x6 #prefix, .M.x6 #suffix{top:7px;}
+.B.x6 #prefix, .B.x6 #suffix{top:25px;}
+
+.T.x4 #prefix, .T.x4 #suffix{top:-6px;}
+.M.x4 #prefix, .M.x4 #suffix{top:7px;}
+.B.x4 #prefix, .B.x4 #suffix{top:25px;}
+
+
+.T.x9 #prefix, .T.x9 #suffix{top:-10px;}
+.M.x9 #prefix, .M.x9 #suffix{top:11px;}
+.B.x9 #prefix, .B.x9 #suffix{top:39px;}
+
+.T.x6.twoline #prefix, .T.x6.twoline #suffix, .T.x4.twoline #prefix, .T.x4.twoline #suffix{top:-7px;}
+.T.x9.twoline #prefix, .T.x9.twoline #suffix{top:-10px;}
+
+
+
+
+.s24.upload #prefix, .Load #prefix, .s18.upload #prefix {left: 213px;}
+.s30.upload #prefix, .Load #prefix {left: 183px;}
+.s36.upload #prefix, .Load #prefix {left: 143px;}
+.s42.upload #prefix, .Load #prefix {left: 102px;}
+.s48.upload #prefix, .Load #prefix {left: 63px;}
+
+
+.s18.noupload #prefix, .s18.Plain #prefix, .s18.Right-Pointer #prefix{left: 160px;}
+.s24.noupload #prefix, .s24.Plain #prefix, .s24.Right-Pointer #prefix{left: 160px;}
+.s30.noupload #prefix, .s30.Plain #prefix, .s30.Right-Pointer #prefix{left: 130px;}
+.s36.noupload #prefix, .s36.Plain #prefix, .s36.Right-Pointer #prefix{left: 90px;}
+.s42.noupload #prefix, .s42.Plain #prefix, .s42.Right-Pointer #prefix{left: 50px;}
+.s48.noupload #prefix, .s48.Plain #prefix, .s48.Right-Pointer #prefix{left: 15px;}
+
+
+.s18.Round #prefix {left: 165px;}
+.s24.Round #prefix {left: 165px;}
+.s30.Round #prefix {left: 140px;}
+.s36.Round #prefix {left: 100px;}
+.s42.Round #prefix {left: 60px;}
+.s48.Round #prefix {left: 20px;}
+
+.s18.Left-Pointer #prefix{left: 202px;}
+.s24.Left-Pointer #prefix{left: 202px;}
+.s30.Left-Pointer #prefix{left: 172px;}
+.s36.Left-Pointer #prefix{left: 132px;}
+.s42.Left-Pointer #prefix{left: 102px;}
+.s48.Left-Pointer #prefix{left: 60px;}
+
+.s24.x9.Left-Pointer #prefix{left: 209px;}
+.s30.x9.Left-Pointer #prefix{left: 172px;}
+.s36.x9.Left-Pointer #prefix{left: 139px;}
+.s42.x9.Left-Pointer #prefix{left: 102px;}
+.s48.x9.Left-Pointer #prefix{left: 60px;}
+
+.street-num.x9 #suffix{top:38px;}
+
+.street-num.x6 #suffix, .street-num.x4 #suffix{top:26px;}
+
+
+
+/* --------------- Arrow Positioning ---------------- */
+
+.Arrow-L-p .thumbnail, .Arrow-R-p .thumbnail, .Arrow-U-p .thumbnail, .Arrow-D-p .thumbnail, .Arrow-L-s .thumbnail, .Arrow-R-s .thumbnail, .Arrow-U-s .thumbnail, .Arrow-D-s .thumbnail{background-image:url(/images/street-signs/arrows.png);background-repeat:no-repeat;}
+
+.White.Arrow-L-p .thumbnail, .White.Arrow-R-p .thumbnail, .White.Arrow-U-p .thumbnail, .White.Arrow-D-p .thumbnail, .White.Arrow-L-s .thumbnail, .White.Arrow-R-s .thumbnail, .White.Arrow-U-s .thumbnail, .White.Arrow-D-s .thumbnail{background-image:url(/images/street-signs/arrows-black.png);background-repeat:no-repeat;}
+
+.s18.x6.Arrow-L-p .thumbnail, .s18.x4.Arrow-L-p .thumbnail{background-position: 154px -128px}
+.s18.x6.Arrow-U-p .thumbnail, .s18.x4.Arrow-U-p .thumbnail{background-position: 154px -430px}
+.s18.x6.Arrow-D-p .thumbnail, .s18.x4.Arrow-D-p .thumbnail{background-position: 154px -278px}
+
+.s18.x6.Round.Arrow-L-p .thumbnail, .s18.x4.Round.Arrow-L-p .thumbnail{background-position: 154px -128px}
+.s18.x6.Round.Arrow-U-p .thumbnail, .s18.x4.Round.Arrow-U-p .thumbnail{background-position: 154px -430px}
+.s18.x6.Round.Arrow-D-p .thumbnail, .s18.x4.Round.Arrow-D-p .thumbnail{background-position: 154px -278px}
+
+.s18.x6.Arrow-R-s .thumbnail, .s18.x4.Arrow-R-s .thumbnail{background-position: 409px 21px}
+.s18.x6.Arrow-U-s .thumbnail, .s18.x4.Arrow-U-s .thumbnail{background-position: 409px -430px}
+.s18.x6.Arrow-D-s .thumbnail, .s18.x4.Arrow-D-s .thumbnail{background-position: 409px -277px}
+
+.s24.x6.Arrow-L-p .thumbnail{background-position: 154px -128px}
+.s24.x6.Arrow-U-p .thumbnail{background-position: 154px -430px}
+.s24.x6.Arrow-D-p .thumbnail{background-position: 154px -278px}
+
+.s24.x6.Round.Arrow-L-p .thumbnail{background-position: 154px -128px}
+.s24.x6.Round.Arrow-U-p .thumbnail{background-position: 154px -430px}
+.s24.x6.Round.Arrow-D-p .thumbnail{background-position: 154px -278px}
+
+.s24.x6.Arrow-R-s .thumbnail{background-position: 409px 21px}
+.s24.x6.Arrow-U-s .thumbnail{background-position: 409px -430px}
+.s24.x6.Arrow-D-s .thumbnail{background-position: 409px -277px}
+
+
+.s30.x6.Arrow-L-p .thumbnail{background-position: 128px -126px}
+.s30.x6.Arrow-U-p .thumbnail{background-position: 128px -428px}
+.s30.x6.Arrow-D-p .thumbnail{background-position: 128px -276px}
+
+.s30.x6.Round.Arrow-L-p .thumbnail{background-position: 137px -126px}
+.s30.x6.Round.Arrow-U-p .thumbnail{background-position: 137px -428px}
+.s30.x6.Round.Arrow-D-p .thumbnail{background-position: 137px -276px}
+
+.s30.x6.Arrow-R-s .thumbnail{background-position: 452px 21px}
+.s30.x6.Arrow-U-s .thumbnail{background-position: 452px -430px}
+.s30.x6.Arrow-D-s .thumbnail{background-position: 452px -277px}
+
+
+.s36.x6.Arrow-L-p .thumbnail{background-position: 90px -128px}
+.s36.x6.Arrow-U-p .thumbnail{background-position: 90px -430px}
+.s36.x6.Arrow-D-p .thumbnail{background-position: 90px -278px}
+
+.s36.x6.Arrow-R-s .thumbnail{background-position: 489px 21px}
+.s36.x6.Arrow-U-s .thumbnail{background-position: 489px -431px}
+.s36.x6.Arrow-D-s .thumbnail{background-position: 489px -278px}
+
+
+
+
+.s24.x9.Arrow-L-p .thumbnail{background-position: 157px -108px}
+.s24.x9.Arrow-U-p .thumbnail{background-position: 157px -411px}
+.s24.x9.Arrow-D-p .thumbnail{background-position: 157px -260px}
+
+.s24.x9.Arrow-R-s .thumbnail{background-position: 407px 35px}
+.s24.x9.Arrow-U-s .thumbnail{background-position: 407px -415px}
+.s24.x9.Arrow-D-s .thumbnail{background-position: 407px -260px}
+
+
+.s30.x9.Arrow-L-p .thumbnail{background-position: 128px -113px}
+.s30.x9.Arrow-U-p .thumbnail{background-position: 128px -413px}
+.s30.x9.Arrow-D-p .thumbnail{background-position: 128px -258px}
+
+.s30.x9.Arrow-R-s .thumbnail{background-position: 450px 37px}
+.s30.x9.Arrow-U-s .thumbnail{background-position: 450px -413px}
+.s30.x9.Arrow-D-s .thumbnail{background-position: 450px -263px}
+
+
+.s36.x9.Arrow-L-p .thumbnail{background-position: 90px -113px}
+.s36.x9.Arrow-U-p .thumbnail{background-position: 90px -413px}
+.s36.x9.Arrow-D-p .thumbnail{background-position: 90px -258px}
+
+.s36.x9.Arrow-R-s .thumbnail{background-position: 494px 37px}
+.s36.x9.Arrow-U-s .thumbnail{background-position: 494px -413px}
+.s36.x9.Arrow-D-s .thumbnail{background-position: 494px -263px}
+
+
+.s42.x9.Arrow-L-p .thumbnail{background-position: 50px -113px}
+.s42.x9.Arrow-U-p .thumbnail{background-position: 50px -413px}
+.s42.x9.Arrow-D-p .thumbnail{background-position: 50px -258px}
+
+.s42.x9.Arrow-R-s .thumbnail{background-position: 519px 37px}
+.s42.x9.Arrow-U-s .thumbnail{background-position: 519px -413px}
+.s42.x9.Arrow-D-s .thumbnail{background-position: 519px -263px}
+
+
+.s48.x9.Arrow-L-p .thumbnail{background-position: 8px -113px}
+.s48.x9.Arrow-U-p .thumbnail{background-position: 8px -413px}
+.s48.x9.Arrow-D-p .thumbnail{background-position: 8px -258px}
+
+.s48.x9.Arrow-R-s .thumbnail{background-position: 550px 37px}
+.s48.x9.Arrow-U-s .thumbnail{background-position: 550px -413px}
+.s48.x9.Arrow-D-s .thumbnail{background-position: 550px -263px}
+
+
+/* --------------- Sign Color Positioning ---------------- */
+
+#custom-product-images.x4.Plain, #custom-product-images.x6.Plain,#custom-product-images.x9.Plain, #custom-product-images.x4.Flat.Blade.With.Border, #custom-product-images.x6.Flat.Blade.With.Border,#custom-product-images.x9.Flat.Blade.With.Border {background-image: url(/images/street-signs/street-names-plain.png);}
+
+#custom-product-images.x4.Logo, #custom-product-images.x6.Logo, #custom-product-images.x9.Logo, #custom-product-images.x4.Flat.Blade.With.Border.and.Outside.Image, #custom-product-images.x6.Flat.Blade.With.Border.and.Outside.Image, #custom-product-images.x9.Flat.Blade.With.Border.and.Outside.Image {background-image: url(/images/street-signs/street-names-logo.png);}
+
+#custom-product-images.x4.Logo.Inner, #custom-product-images.x6.Logo.Inner, #custom-product-images.x9.Logo.Inner, #custom-product-images.x4.Flat.Blade.With.Border.and.Inside.Image, #custom-product-images.x6.Flat.Blade.With.Border.and.Inside.Image, #custom-product-images.x9.Flat.Blade.With.Border.and.Inside.Image {background-image: url(/images/street-signs/street-names-innerlogo.png);}
+
+
+#custom-product-images.x4.Flat.Blade.No.Border, #custom-product-images.x6.Flat.Blade.No.Border, #custom-product-images.x9.Flat.Blade.No.Border {background-image: url(/images/street-signs/street-names-bleed.png);}
+
+#custom-product-images.x4.Flat.Blade.No.Border.and.Outside.Image, #custom-product-images.x6.Flat.Blade.No.Border.and.Outside.Image, #custom-product-images.x9.Flat.Blade.No.Border.and.Outside.Image {background-image: url(/images/street-signs/street-names-bleed-logo.png);}
+
+#custom-product-images.x4.Flat.Blade.No.Border.and.Inside.Image, #custom-product-images.x6.Flat.Blade.No.Border.and.Inside.Image, #custom-product-images.x9.Flat.Blade.No.Border.and.Inside.Image {background-image: url(/images/street-signs/street-names-bleed-innerlogo.png);}
+
+
+#custom-product-images.x4.Round, #custom-product-images.x6.Round, #custom-product-images.x9.Round  {background-image: url(/images/street-signs/street-names-round.png);}
+
+#custom-product-images.x4.Left-Pointer, #custom-product-images.x6.Left-Pointer, #custom-product-images.x9.Left-Pointer {background-image: url(/images/street-signs/street-names-left.png);}
+
+#custom-product-images.x4.Right-Pointer, #custom-product-images.x6.Right-Pointer, #custom-product-images.x9.Right-Pointer {background-image: url(/images/street-signs/street-names-right.png);}
+
+
+#custom-product-images.x4.Extruded, #custom-product-images.x6.Extruded, #custom-product-images.x9.Extruded {background-image: url(/images/street-signs/street-names-extruded.png);}
+
+#custom-product-images.x4.Extruded.with.Outside.Image, #custom-product-images.x6.Extruded.with.Outside.Image, #custom-product-images.x9.Extruded.with.Outside.Image {background-image: url(/images/street-signs/street-names-extruded-logo.png);}
+
+#custom-product-images.x4.Extruded.with.Inside.Image, #custom-product-images.x6.Extruded.with.Inside.Image, #custom-product-images.x9.Extruded.with.Inside.Image {background-image: url(/images/street-signs/street-names-extruded-innerlogo.png);}
+
+
+#custom-product-images.x4.Sign.with.Holes.and.Border, #custom-product-images.x6.Sign.with.Holes.and.Border,#custom-product-images.x9.Sign.with.Holes.and.Border {background-image: url(/images/street-signs/street-names-plain-holes.png);}
+
+#custom-product-images.x4.Sign.with.Holes-Border-Outside.Image, #custom-product-images.x6.Sign.with.Holes-Border-Outside.Image, #custom-product-images.x9.Sign.with.Holes-Border-Outside.Image {background-image: url(/images/street-signs/street-names-logo-holes.png);}
+
+#custom-product-images.x4.Sign.with.Holes-Border-Inside.Image, #custom-product-images.x6.Sign.with.Holes-Border-Inside.Image, #custom-product-images.x9.Sign.with.Holes-Border-Inside.Image {background-image: url(/images/street-signs/street-names-innerlogo-holes.png);}
+
+
+#custom-product-images.x4.Sign.with.Holes.and.No.Border, #custom-product-images.x6.Sign.with.Holes.and.No.Border, #custom-product-images.x9.Sign.with.Holes.and.No.Border {background-image: url(/images/street-signs/street-names-bleed-holes.png);}
+
+#custom-product-images.x4.Sign.with.Holes-No.Border-Outside.Image, #custom-product-images.x6.Sign.with.Holes-No.Border-Outside.Image, #custom-product-images.x9.Sign.with.Holes-No.Border-Outside.Image {background-image: url(/images/street-signs/street-names-bleed-logo-holes.png);}
+
+#custom-product-images.x4.Sign.with.Holes-No.Border-Inside.Image, #custom-product-images.x6.Sign.with.Holes-No.Border-Inside.Image, #custom-product-images.x9.Sign.with.Holes-No.Border-Inside.Image {background-image: url(/images/street-signs/street-names-bleed-innerlogo-holes.png);}
+
+
+
+
+
+.Red{background-position: 200px 0px;}
+.Blue{background-position: 200px -215px;}
+.Green{background-position: 200px -430px;}
+
+.s18.x4.Blue {background-position: 149px -1348px;}
+.s18.x4.Green {background-position: -500px -1348px;}
+.s18.x4.White {background-position: -1150px -1348px;}
+.s18.x4.Red {background-position: -1800px -1348px;}
+.s18.x4.Brown {background-position: -2450px -1348px;}
+.s18.x4.Black {background-position: -3100px -1348px;}
+
+.s18.x6.Blue {background-position: 149px -1198px;}
+.s18.x6.Green {background-position: -500px -1198px;}
+.s18.x6.White {background-position: -1150px -1198px;}
+.s18.x6.Red {background-position: -1800px -1198px;}
+.s18.x6.Brown {background-position: -2450px -1198px;}
+.s18.x6.Black {background-position: -3100px -1198px;}
+
+.s24.x6.Blue {background-position: 149px 0px;}
+.s24.x6.Green {background-position: -500px 0px;}
+.s24.x6.White {background-position: -1150px 0px;}
+.s24.x6.Red {background-position: -1800px 0px;}
+.s24.x6.Brown {background-position: -2450px 0px;}
+.s24.x6.Black {background-position: -3100px 0px;}
+
+.s30.x6.Blue {background-position: 119px -302px;}
+.s30.x6.Green {background-position: -530px -302px;}
+.s30.x6.White {background-position: -1180px -302px;}
+.s30.x6.Red {background-position: -1830px -302px;}
+.s30.x6.Brown {background-position: -2480px -302px;}
+.s30.x6.Black {background-position: -3130px -302px;}
+
+.s36.x6.Blue {background-position: 79px -600px;}
+.s36.x6.Green {background-position: -570px -600px;}
+.s36.x6.White {background-position: -1220px -600px;}
+.s36.x6.Red {background-position: -1870px -600px;}
+.s36.x6.Brown {background-position: -2520px -600px;}
+.s36.x6.Black {background-position: -3170px -600px;}
+
+.s36.x6.Blue.Logo {background-position: 79px -600px;}
+.s36.x6.Green.Logo {background-position: -570px -600px;}
+.s36.x6.White.Logo {background-position: -1220px -600px;}
+
+.s24.x9.Blue {background-position: 149px -149px;}
+.s24.x9.Green {background-position: -500px -149px;}
+.s24.x9.White {background-position: -1150px -149px;}
+.s24.x9.Red {background-position: -1800px -149px;}
+.s24.x9.Brown {background-position: -2450px -149px;}
+.s24.x9.Black {background-position: -3100px -149px;}
+
+.s30.x9.Blue {background-position: 119px -450px;}
+.s30.x9.Green {background-position: -530px -450px;}
+.s30.x9.White {background-position: -1180px -450px;}
+.s30.x9.Red {background-position: -1830px -450px;}
+.s30.x9.Brown {background-position: -2480px -450px;}
+.s30.x9.Black {background-position: -3130px -450px;}
+
+.s36.x9.Blue {background-position: 79px -750px;}
+.s36.x9.Green {background-position: -570px -750px;}
+.s36.x9.White {background-position: -1220px -750px;}
+.s36.x9.Red {background-position: -1870px -750px;}
+.s36.x9.Brown {background-position: -2520px -750px;}
+.s36.x9.Black {background-position: -3170px -750px;}
+
+.s36.x9.Blue.Logo {background-position: 79px -750px;}
+.s36.x9.Green.Logo {background-position: -570px -750px;}
+.s36.x9.White.Logo {background-position: -1220px -750px;}
+
+.s42.x9.Blue {background-position: 39px -900px;}
+.s42.x9.Green {background-position: -610px -900px;}
+.s42.x9.White {background-position: -1260px -900px;}
+.s42.x9.Red {background-position: -1910px -900px;}
+.s42.x9.Brown {background-position: -2560px -900px;}
+.s42.x9.Black {background-position: -3210px -900px;}
+
+.s48.x9.Blue {background-position: -1px -1050px;}
+.s48.x9.Green {background-position: -650px -1050px;}
+.s48.x9.White {background-position: -1300px -1050px;}
+.s48.x9.Red {background-position: -1950px -1050px;}
+.s48.x9.Brown {background-position: -2600px -1050px;}
+.s48.x9.Black {background-position: -3250px -1050px;}
+
+/*---------------- 18 x 4 ------------------------------- */
+
+.s18.x4.upload .product_text {left:243px; width: 165px;}
+
+.s18.x4.upload.None-p .product_text {left: 212px; width: 180px;}
+.s18.x4.upload.None-s .product_text {left:243px; width: 200px;}
+.s18.x4.upload.None-p.None-s .product_text {left:212px; width: 228px;}
+.s18.x4.upload.None-p.street-num .product_text, .s18.x4.upload.None-p.None-s.street-num .product_text {left: 212px; width: 180px;}
+.s18.x4.upload.None-s.street-num .product_text {left:243px; width: 165px;}
+
+
+.s18.x4.noupload .product_text {left:190px; width: 215px;}
+
+.s18.x4.noupload.None-p .product_text {left: 155px; width: 245px;}
+.s18.x4.noupload.None-s .product_text {left:190px; width: 255px;}
+.s18.x4.noupload.None-p.None-s .product_text {left: 155px; width: 290px;}
+.s18.x4.noupload.None-p.street-num .product_text, .s18.x4.noupload.None-p.None-s.street-num .product_text  {left: 155px; width: 245px;}
+.s18.x4.noupload.None-s.street-num .product_text {left:190px; width: 215px;}
+
+.s18.x4.Plain .product_text {left:190px; width: 215px;}
+
+.s18.x4.Plain.None-p .product_text {left: 155px; width: 245px;}
+.s18.x4.Plain.None-s .product_text {left:190px; width: 255px;}
+.s18.x4.Plain.None-p.None-s .product_text {left: 155px; width: 290px;}
+.s18.x4.Plain.None-p.street-num .product_text, .s18.x4.Plain.None-p.None-s.street-num .product_text  {left: 155px; width: 245px;}
+.s18.x4.Plain.None-s.street-num .product_text {left:190px; width: 215px;}
+
+
+.s18.x4.Round .product_text {left:195px; width: 200px;}
+
+.s18.x4.Round.None-p .product_text {left: 165px; width: 235px;}
+.s18.x4.Round.None-s .product_text {left:194px; width: 245px;}
+.s18.x4.Round.None-p.None-s .product_text {left:165px; width: 275px;}
+.s18.x4.Round.None-p.street-num .product_text, .s18.x4.Round.None-p.None-s.street-num .product_text {left: 165px; width: 235px;}
+.s18.x4.Round.None-s.street-num .product_text {left:195px; width: 200px;}
+
+.s18.x4.Round.Arrow-L-p .product_text, .s18.x4.Round.Arrow-D-p .product_text, .s18.x4.Round.Arrow-U-p .product_text {left:203px; width: 236px;}
+
+.s18.x4.Left-Pointer .product_text {left:232px; width: 170px;}
+
+.s18.x4.Left-Pointer.None-p .product_text {left: 202px; width: 205px;}
+.s18.x4.Left-Pointer.None-s .product_text {left:232px; width: 214px;}
+.s18.x4.Left-Pointer.None-p.None-s .product_text {left:202px; width: 243px;}
+.s18.x4.Left-Pointer.None-p.street-num .product_text, .s18.x4.Left-Pointer.None-p.None-s.street-num .product_text {left: 202px; width: 205px;}
+.s18.x4.Left-Pointer.None-s.street-num .product_text {left:232px; width: 170px;}
+
+.s18.x4.Right-Pointer .product_text {left:190px; width: 175px;}
+
+.s18.x4.Right-Pointer.None-p .product_text {left: 160px; width: 209px;}
+.s18.x4.Right-Pointer.None-s .product_text {left:190px; width: 212px;}
+.s18.x4.Right-Pointer.None-p.None-s .product_text {left:155px; width: 246px;}
+.s18.x4.Right-Pointer.None-p.street-num .product_text, .s18.x4.Right-Pointer.None-p.None-s.street-num .product_text {left: 160px; width: 209px;}
+.s18.x4.Right-Pointer.None-s.street-num .product_text {left:190px; width: 175px;}
+
+.s18.x4 .thumbnail{width:453px;}
+
+.s18.x4.None-p.noupload.street-num .product_text, .s18.x4.None-p.Plain.street-num .product_text {left:160px;  width: 240px;}
+
+
+/*---------------- 18 x 6 ------------------------------- */
+
+.s18.x6.upload .product_text {left:243px; width: 165px;}
+
+.s18.x6.upload.None-p .product_text {left: 212px; width: 180px;}
+.s18.x6.upload.None-s .product_text {left:243px; width: 200px;}
+.s18.x6.upload.None-p.None-s .product_text {left:212px; width: 228px;}
+.s18.x6.upload.None-p.street-num .product_text, .s18.x6.upload.None-p.None-s.street-num .product_text {left: 212px; width: 180px;}
+.s18.x6.upload.None-s.street-num .product_text {left:243px; width: 165px;}
+
+
+.s18.x6.noupload .product_text {left:190px; width: 215px;}
+
+.s18.x6.noupload.None-p .product_text {left: 155px; width: 245px;}
+.s18.x6.noupload.None-s .product_text {left:190px; width: 255px;}
+.s18.x6.noupload.None-p.None-s .product_text {left: 155px; width: 290px;}
+.s18.x6.noupload.None-p.street-num .product_text, .s18.x6.noupload.None-p.None-s.street-num .product_text {left: 155px; width: 245px;}
+.s18.x6.noupload.None-s.street-num .product_text {left:190px; width: 215px;}
+
+.s18.x6.Plain .product_text {left:190px; width: 215px;}
+
+.s18.x6.Plain.None-p .product_text {left: 155px; width: 245px;}
+.s18.x6.Plain.None-s .product_text {left:190px; width: 255px;}
+.s18.x6.Plain.None-p.None-s .product_text {left: 155px; width: 290px;}
+.s18.x6.Plain.None-p.street-num .product_text, .s18.x6.Plain.None-p.None-s.street-num .product_text {left: 155px; width: 245px;}
+.s18.x6.Plain.None-s.street-num .product_text {left:190px; width: 215px;}
+
+
+.s18.x6.Round .product_text {left:195px; width: 200px;}
+
+.s18.x6.Round.None-p .product_text {left: 165px; width: 235px;}
+.s18.x6.Round.None-s .product_text {left:194px; width: 245px;}
+.s18.x6.Round.None-p.None-s .product_text {left:165px; width: 275px;}
+.s18.x6.Round.None-p.street-num .product_text, .s18.x6.Round.None-p.None-s.street-num .product_text {left: 165px; width: 235px;}
+.s18.x6.Round.None-s.street-num .product_text {left:195px; width: 200px;}
+
+.s18.x6.Round.Arrow-L-p .product_text, .s18.x6.Round.Arrow-D-p .product_text, .s18.x6.Round.Arrow-U-p .product_text {left:203px; width: 236px;}
+
+.s18.x6.Left-Pointer .product_text {left:232px; width: 170px;}
+
+.s18.x6.Left-Pointer.None-p .product_text {left: 202px; width: 205px;}
+.s18.x6.Left-Pointer.None-s .product_text {left:232px; width: 214px;}
+.s18.x6.Left-Pointer.None-p.None-s .product_text {left:202px; width: 243px;}
+.s18.x6.Left-Pointer.None-p.street-num .product_text, .s18.x6.Left-Pointer.None-p.None-s.street-num .product_text {left: 202px; width: 205px;}
+.s18.x6.Left-Pointer.None-s.street-num .product_text {left:232px; width: 170px;}
+
+.s18.x6.Right-Pointer .product_text {left:190px; width: 175px;}
+
+.s18.x6.Right-Pointer.None-p .product_text {left: 160px; width: 209px;}
+.s18.x6.Right-Pointer.None-s .product_text {left:190px; width: 212px;}
+.s18.x6.Right-Pointer.None-p.None-s .product_text {left:155px; width: 246px;}
+.s18.x6.Right-Pointer.None-p.street-num .product_text, .s18.x6.Right-Pointer.None-p.None-s.street-num .product_text {left: 160px; width: 209px;}
+.s18.x6.Right-Pointer.None-s.street-num .product_text {left:190px; width: 175px;}
+
+.s18.x6 .thumbnail{width:453px;}
+
+.s18.x6.None-p.noupload.street-num .product_text, .s18.x6.None-p.Plain.street-num .product_text {left:160px;  width: 240px;}
+
+
+/*---------------- 24 x 6 ------------------------------- */
+
+.s24.x6.upload .product_text {left:243px; width: 165px;}
+
+.s24.x6.upload.None-p .product_text {left: 212px; width: 180px;}
+.s24.x6.upload.None-s .product_text {left:243px; width: 200px;}
+.s24.x6.upload.None-p.None-s .product_text {left:212px; width: 228px;}
+.s24.x6.upload.None-p.street-num .product_text, .s24.x6.upload.None-p.None-s.street-num .product_text {left: 212px; width: 180px;}
+.s24.x6.upload.None-s.street-num .product_text {left:243px; width: 165px;}
+
+
+.s24.x6.noupload .product_text {left:190px; width: 215px;}
+
+.s24.x6.noupload.None-p .product_text {left: 155px; width: 245px;}
+.s24.x6.noupload.None-s .product_text {left:190px; width: 255px;}
+.s24.x6.noupload.None-p.None-s .product_text {left: 155px; width: 290px;}
+.s24.x6.noupload.None-p.street-num .product_text, .s24.x6.noupload.None-p.None-s.street-num .product_text {left: 155px; width: 245px;}
+.s24.x6.noupload.None-s.street-num .product_text {left:190px; width: 215px;}
+
+.s24.x6.Plain .product_text {left:190px; width: 215px;}
+
+.s24.x6.Plain.None-p .product_text {left: 155px; width: 245px;}
+.s24.x6.Plain.None-s .product_text {left:190px; width: 255px;}
+.s24.x6.Plain.None-p.None-s .product_text {left: 155px; width: 290px;}
+.s24.x6.Plain.None-p.street-num .product_text, .s24.x6.Plain.None-p.None-s.street-num .product_text {left: 155px; width: 245px;}
+.s24.x6.Plain.None-s.street-num .product_text {left:190px; width: 215px;}
+
+
+.s24.x6.Round .product_text {left:195px; width: 200px;}
+
+.s24.x6.Round.None-p .product_text {left: 165px; width: 235px;}
+.s24.x6.Round.None-s .product_text {left:194px; width: 245px;}
+.s24.x6.Round.None-p.None-s .product_text {left:165px; width: 275px;}
+.s24.x6.Round.None-p.street-num .product_text, .s24.x6.Round.None-p.None-s.street-num .product_text {left: 165px; width: 235px;}
+.s24.x6.Round.None-s.street-num .product_text {left:195px; width: 200px;}
+
+.s24.x6.Round.Arrow-L-p .product_text, .s24.x6.Round.Arrow-D-p .product_text, .s24.x6.Round.Arrow-U-p .product_text {left:203px; width: 236px;}
+
+.s24.x6.Left-Pointer .product_text {left:232px; width: 170px;}
+
+.s24.x6.Left-Pointer.None-p .product_text {left: 202px; width: 205px;}
+.s24.x6.Left-Pointer.None-s .product_text {left:232px; width: 214px;}
+.s24.x6.Left-Pointer.None-p.None-s .product_text {left:202px; width: 243px;}
+.s24.x6.Left-Pointer.None-p.street-num .product_text, .s24.x6.Left-Pointer.None-p.None-s.street-num .product_text {left: 202px; width: 205px;}
+.s24.x6.Left-Pointer.None-s.street-num .product_text {left:232px; width: 170px;}
+
+.s24.x6.Right-Pointer .product_text {left:190px; width: 175px;}
+
+.s24.x6.Right-Pointer.None-p .product_text {left: 160px; width: 209px;}
+.s24.x6.Right-Pointer.None-s .product_text {left:190px; width: 212px;}
+.s24.x6.Right-Pointer.None-p.None-s .product_text {left:155px; width: 246px;}
+.s24.x6.Right-Pointer.None-p.street-num .product_text, .s24.x6.Right-Pointer.None-p.None-s.street-num .product_text {left: 160px; width: 209px;}
+.s24.x6.Right-Pointer.None-s.street-num .product_text {left:190px; width: 175px;}
+
+.s24.x6 .thumbnail{width:453px;}
+
+.s24.x6.None-p.noupload.street-num .product_text, .s24.x6.None-p.Plain.street-num .product_text {left:160px;  width: 240px;}
+
+/*---------------- 30 x 6 ------------------------------- */
+
+.s30.x6.upload .product_text {left:214px; width: 225px;}
+
+.s30.x6.upload.None-p .product_text {left:182px;  width: 268px;}
+.s30.x6.upload.None-s .product_text {left:214px; width: 273px;}
+.s30.x6.upload.None-p.None-s .product_text {left:182px;  width: 307px;}
+.s30.x6.upload.None-p.street-num .product_text, .s30.x6.upload.None-p.None-s.street-num .product_text {left:182px;  width: 268px;}
+.s30.x6.upload.None-s.street-num .product_text {left:214px; width: 225px;}
+
+.s30.x6.noupload .product_text {left: 165px; width: 275px;}
+
+.s30.x6.noupload.None-p .product_text {left:129px;  width: 310px;}
+.s30.x6.noupload.None-s .product_text {left:165px; width: 324px;}
+.s30.x6.noupload.None-p.None-s .product_text {left:129px;  width: 359px;}
+.s30.x6.noupload.None-p.street-num .product_text, .s30.x6.noupload.None-p.None-s.street-num .product_text {left:129px;  width: 310px;}
+.s30.x6.noupload.None-s.street-num .product_text {left: 165px; width: 275px;}
+
+.s30.x6.Plain .product_text {left: 165px; width: 275px;}
+
+.s30.x6.Plain.None-p .product_text {left:129px;  width: 310px;}
+.s30.x6.Plain.None-s .product_text {left:165px; width: 324px;}
+.s30.x6.Plain.None-p.None-s .product_text {left:129px;  width: 359px;}
+.s30.x6.Plain.None-p.street-num .product_text, .s30.x6.Plain.None-p.None-s.street-num .product_text {left:129px;  width: 310px;}
+.s30.x6.Plain.None-s.street-num .product_text {left: 165px; width: 275px;}
+
+
+.s30.x6.Round .product_text {left:170px; width: 269px;}
+
+.s30.x6.Round.None-p .product_text {left:137px;  width: 307px;}
+.s30.x6.Round.None-s .product_text {left:170px; width: 313px;}
+.s30.x6.Round.None-p.None-s .product_text {left:137px;  width: 343px;}
+.s30.x6.Round.None-p.street-num .product_text, .s30.x6.Round.None-p.None-s.street-num .product_text {left:137px;  width: 307px;}
+.s30.x6.Round.None-s.street-num .product_text {left:170px; width: 269px;}
+
+.s30.x6.Round.Arrow-L-p .product_text, .s30.x6.Round.Arrow-D-p .product_text, .s30.x6.Round.Arrow-U-p .product_text  {left:179px; width: 236px;}
+
+.s30.x6.Left-Pointer .product_text {left:202px; width: 236px;}
+
+.s30.x6.Left-Pointer.None-p .product_text {left:171px;  width: 278px;}
+.s30.x6.Left-Pointer.None-s .product_text {left:202px; width: 287px;}
+.s30.x6.Left-Pointer.None-p.None-s .product_text {left:171px;  width: 319px;}
+.s30.x6.Left-Pointer.None-p.street-num .product_text, .s30.x6.Left-Pointer.None-p.None-s.street-num .product_text {left:171px;  width: 278px;}
+.s30.x6.Left-Pointer.None-s.street-num .product_text {left:202px; width: 236px;}
+
+.s30.x6.Right-Pointer .product_text {left:164px; width: 243px;}
+
+.s30.x6.Right-Pointer.None-p .product_text {left:127px;  width: 282px;}
+.s30.x6.Right-Pointer.None-s .product_text {left:162px; width: 282px;}
+.s30.x6.Right-Pointer.None-p.None-s .product_text {left:127px;  width: 319px;}
+.s30.x6.Right-Pointer.None-p.street-num .product_text, .s30.x6.Right-Pointer.None-p.None-s.street-num .product_text {left:127px;  width: 282px;}
+.s30.x6.Right-Pointer.None-s.street-num .product_text {left:164px; width: 243px;}
+
+.s30.x6 .thumbnail{width:498px;}
+
+.s30.x6.None-p.noupload.street-num .product_text, .s30.x6.None-p.Plain.street-num .product_text {left:130px;  width: 290px;}
+
+/*---------------- 36 x 6 ------------------------------- */
+
+.s36.x6.upload .product_text {left:173px; width: 310px;}
+
+.s36.x6.upload.None-p .product_text {left:145px;  width: 340px;}
+.s36.x6.upload.None-s .product_text {left:173px; width: 350px;}
+.s36.x6.upload.None-p.None-s .product_text {left:140px; width: 385px; }
+.s36.x6.upload.None-p.street-num .product_text, .s36.x6.upload.None-p.None-s.street-num .product_text {left:145px;  width: 340px;}
+.s36.x6.upload.None-s.street-num .product_text {left:173px; width: 310px;}
+
+.s36.x6.noupload .product_text {left: 134px; width: 350px;}
+
+.s36.x6.noupload.None-p .product_text {left:88px;  width: 389px;}
+.s36.x6.noupload.None-s .product_text {left:129px; width: 398px;}
+.s36.x6.noupload.None-p.None-s .product_text {left:88px;  width: 436px;}
+.s36.x6.noupload.None-p.street-num .product_text, .s36.x6.noupload.None-p.None-s.street-num .product_text {left:88px;  width: 389px;}
+.s36.x6.noupload.None-s.street-num .product_text {left: 134px; width: 350px;}
+
+.s36.x6.Plain .product_text {left: 134px; width: 350px;}
+
+.s36.x6.Plain.None-p .product_text {left:88px;  width: 389px;}
+.s36.x6.Plain.None-s .product_text {left:134px; width: 405px;}
+.s36.x6.Plain.None-p.None-s .product_text {left:88px;  width: 436px;}
+.s36.x6.Plain.None-p.street-num .product_text, .s36.x6.Plain.None-p.None-s.street-num .product_text {left:88px;  width: 389px;}
+.s36.x6.Plain.None-s.street-num .product_text {left: 134px; width: 350px;}
+
+
+.s36.x6.Round .product_text {left:129px;width: 349px;}
+
+.s36.x6.Round.None-p .product_text {left:95px;  width: 382px;}
+.s36.x6.Round.None-s .product_text {left:130px; width: 387px;}
+.s36.x6.Round.None-p.None-s .product_text {left:95px;  width: 421px;}
+.s36.x6.Round.None-p.street-num .product_text, .s36.x6.Round.None-p.None-s.street-num .product_text {left:95px;  width: 382px;}
+.s36.x6.Round.None-s.street-num .product_text {left:129px;width: 349px;}
+
+.s36.x6.Round.Arrow-L-p .product_text, .s36.x6.Round.Arrow-D-p .product_text, .s36.x6.Round.Arrow-U-p .product_text  {left:130px; width: 387px;}
+
+.s36.x6.Left-Pointer .product_text {left:162px; width: 318px;}
+
+.s36.x6.Left-Pointer.None-p .product_text {left:130px;  width: 354px;}
+.s36.x6.Left-Pointer.None-s .product_text {left:162px; width: 363px;}
+.s36.x6.Left-Pointer.None-p.None-s .product_text {left:130px;  width: 395px;}
+.s36.x6.Left-Pointer.None-p.street-num .product_text, .s36.x6.Left-Pointer.None-p.None-s.street-num .product_text {left:130px;  width: 354px;}
+.s36.x6.Left-Pointer.None-s.street-num .product_text {left:162px; width: 318px;}
+
+.s36.x6.Right-Pointer .product_text {left:116px; width: 323px;}
+
+.s36.x6.Right-Pointer.None-p .product_text {left:88px;  width: 353px;}
+.s36.x6.Right-Pointer.None-s .product_text {left:117px; width: 366px;}
+.s36.x6.Right-Pointer.None-p.None-s .product_text {left:88px;  width: 397px;}
+.s36.x6.Right-Pointer.None-p.street-num .product_text, .s36.x6.Right-Pointer.None-p.None-s.street-num .product_text {left:88px;  width: 353px;}
+.s36.x6.Right-Pointer.None-s.street-num .product_text {left:116px; width: 323px;}
+
+.s36.x6 .thumbnail{width:534px;}
+
+.s36.x6.None-p.noupload.street-num .product_text, .s36.x6.None-p.Plain.street-num .product_text {left:96px;  width: 380px;}
+
+/*---------------- 24 x 9 ------------------------------- */
+
+.s24.x9.upload .product_text {left:243px; width: 160px;}
+
+.s24.x9.upload.None-p .product_text {left: 212px; width: 177px;}
+.s24.x9.upload.None-s .product_text {left:243px; width: 200px;}
+.s24.x9.upload.None-p.None-s .product_text {left:212px; width: 233px;}
+.s24.x9.upload.None-p.street-num .product_text, .s24.x9.upload.None-p.None-s.street-num .product_text {left: 212px; width: 177px;}
+.s24.x9.upload.None-s.street-num .product_text {left:243px; width: 160px;}
+
+.s24.x9.noupload .product_text {left:195px; width: 200px;}
+
+.s24.x9.noupload.None-p .product_text {left: 159px; width: 245px;}
+.s24.x9.noupload.None-s .product_text {left:195px; width: 245px;}
+.s24.x9.noupload.None-p.None-s .product_text {left: 155px; width: 290px;}
+.s24.x9.noupload.None-p.street-num .product_text, .s24.x9.noupload.None-p.None-s.street-num .product_text {left: 159px; width: 245px;}
+.s24.x9.noupload.None-s.street-num .product_text {left:195px; width: 200px;}
+
+.s24.x9.Plain .product_text {left:195px; width: 200px;}
+
+.s24.x9.Plain.None-p .product_text {left: 159px; width: 245px;}
+.s24.x9.Plain.None-s .product_text {left:195px; width: 245px;}
+.s24.x9.Plain.None-p.None-s .product_text {left: 155px; width: 290px;}
+.s24.x9.Plain.None-p.street-num .product_text, .s24.x9.Plain.None-p.None-s.street-num .product_text {left: 159px; width: 245px;}
+.s24.x9.Plain.None-s.street-num .product_text {left:195px; width: 200px;}
+
+.s24.x9.Round .product_text {left:200px; width: 203px;}
+
+.s24.x9.Round.None-p .product_text {left: 165px; width: 235px;}
+.s24.x9.Round.None-s .product_text {left:194px; width: 245px;}
+.s24.x9.Round.None-p.None-s .product_text {left:165px; width: 275px;}
+.s24.x9.Round.None-p.street-num .product_text, .s24.x9.Round.None-p.None-s.street-num .product_text {left:194px; width: 245px;}
+.s24.x9.Round.None-s.street-num .product_text {left:200px; width: 203px;}
+
+.s24.x9.Round.Arrow-L-p .product_text, .s24.x9.Round.Arrow-D-p .product_text, .s24.x9.Round.Arrow-U-p .product_text {left:60px; width: 325px;}
+
+.s24.x9.Left-Pointer .product_text {left:245px; width: 156px;}
+
+.s24.x9.Left-Pointer.None-p .product_text {left: 212px; width: 185px;}
+.s24.x9.Left-Pointer.None-s .product_text {left:245px; width: 193px;}
+.s24.x9.Left-Pointer.None-p.None-s .product_text {left:212px; width: 228px;}
+.s24.x9.Left-Pointer.None-p.street-num .product_text, .s24.x9.Left-Pointer.None-p.None-s.street-num .product_text {left: 212px; width: 185px;}
+.s24.x9.Left-Pointer.None-s.street-num .product_text {left:245px; width: 156px;}
+
+.s24.x9.Right-Pointer .product_text {left:198px; width: 158px;}
+
+.s24.x9.Right-Pointer.None-p .product_text {left: 160px; width: 188px;}
+.s24.x9.Right-Pointer.None-s .product_text {left:198px; width: 201px;}
+.s24.x9.Right-Pointer.None-p.None-s .product_text {left:160px; width: 230px;}
+.s24.x9.Right-Pointer.None-p.street-num .product_text, .s24.x9.Right-Pointer.None-p.None-s.street-num .product_text {left: 160px; width: 188px;}
+.s24.x9.Right-Pointer.None-s.street-num .product_text {left:198px; width: 158px;}
+
+.s24.x9 .thumbnail{width:452px;}
+
+.s24.x9.None-p.noupload.street-num .product_text, .s24.x9.None-p.Plain.street-num .product_text {left:159px;  width: 230px;}
+
+/*---------------- 30 x 9 ------------------------------- */
+
+.s30.x9.upload .product_text {left:214px; width: 225px;}
+
+.s30.x9.upload.None-p .product_text {left:182px;  width: 253px;}
+.s30.x9.upload.None-s .product_text {left:214px; width: 273px;}
+.s30.x9.upload.None-p.None-s .product_text {left:182px;  width: 307px;}
+.s30.x9.upload.None-p.street-num .product_text, .s30.x9.upload.None-p.None-s.street-num .product_text {left:182px;  width: 253px;}
+.s30.x9.upload.None-s.street-num .product_text {left:214px; width: 225px;}
+
+.s30.x9.noupload .product_text {left: 165px; width: 275px;}
+
+.s30.x9.noupload.None-p .product_text {left:129px;  width: 310px;}
+.s30.x9.noupload.None-s .product_text {left:165px; width: 320px;}
+.s30.x9.noupload.None-p.None-s .product_text {left:129px;  width: 359px;}
+.s30.x9.noupload.None-p.street-num .product_text, .s30.x9.noupload.None-p.None-s.street-num .product_text {left:129px;  width: 310px;}
+.s30.x9.noupload.None-s.street-num .product_text {left: 165px; width: 275px;}
+
+.s30.x9.Plain .product_text {left: 165px; width: 275px;}
+
+.s30.x9.Plain.None-p .product_text {left:129px;  width: 310px;}
+.s30.x9.Plain.None-s .product_text {left:165px; width: 320px;}
+.s30.x9.Plain.None-p.None-s .product_text {left:129px;  width: 359px;}
+.s30.x9.Plain.None-p.street-num .product_text, .s30.x9.Plain.None-p.None-s.street-num .product_text {left:129px;  width: 310px;}
+.s30.x9.Plain.None-s.street-num .product_text {left: 165px; width: 275px;}
+
+.s30.x9.Round .product_text {left:170px; width: 269px;}
+
+.s30.x9.Round.None-p .product_text {left:137px;  width: 302px;}
+.s30.x9.Round.None-s .product_text {left:170px; width: 313px;}
+.s30.x9.Round.None-p.None-s .product_text {left:137px;  width: 343px;}
+.s30.x9.Round.None-p.street-num .product_text, .s30.x9.Round.None-p.None-s.street-num .product_text {left:137px;  width: 302px;}
+.s30.x9.Round.None-s.street-num .product_text {left:170px; width: 269px;}
+
+.s30.x9.Round.Arrow-L-p .product_text, .s30.x9.Round.Arrow-D-p .product_text, .s30.x9.Round.Arrow-U-p .product_text  {left:170px; width: 313px;}
+
+.s30.x9.Left-Pointer .product_text {left:202px; width: 236px;}
+
+.s30.x9.Left-Pointer.None-p .product_text {left:178px;  width: 260px;}
+.s30.x9.Left-Pointer.None-s .product_text {left:207px; width: 282px;}
+.s30.x9.Left-Pointer.None-p.None-s .product_text {left:178px;  width: 307px;}
+.s30.x9.Left-Pointer.None-p.street-num .product_text, .s30.x9.Left-Pointer.None-p.None-s.street-num .product_text {left:178px;  width: 260px;}
+.s30.x9.Left-Pointer.None-s.street-num .product_text {left:202px; width: 236px;}
+
+.s30.x9.Right-Pointer .product_text {left:164px; width: 233px;}
+
+.s30.x9.Right-Pointer.None-p .product_text {left:132px;  width: 266px;}
+.s30.x9.Right-Pointer.None-s .product_text {left:162px; width: 282px;}
+.s30.x9.Right-Pointer.None-p.None-s .product_text {left:127px;  width: 309px;}
+.s30.x9.Right-Pointer.None-p.street-num .product_text, .s30.x9.Right-Pointer.None-p.None-s.street-num .product_text {left:132px;  width: 266px;}
+.s30.x9.Right-Pointer.None-s.street-num .product_text {left:164px; width: 233px;}
+
+.s30.x9 .thumbnail{width:498px;}
+
+.s30.x9.None-p.noupload.street-num .product_text, .s30.x9.None-p.Plain.street-num .product_text {left:129px;  width: 305px;}
+
+
+/*---------------- 36 x 9 ------------------------------- */
+
+.s36.x9.upload .product_text {left:173px; width: 305px;}
+
+.s36.x9.upload.None-p .product_text {left:152px;  width: 319px;}
+.s36.x9.upload.None-s .product_text {left:178px; width: 343px;}
+.s36.x9.upload.None-p.None-s .product_text {left:144px; width: 379px; }
+.s36.x9.upload.None-p.street-num .product_text, .s36.x9.upload.None-p.None-s.street-num .product_text {left:152px;  width: 319px;}
+.s36.x9.upload.None-s.street-num .product_text {left:173px; width: 305px;}
+
+.s36.x9.noupload .product_text {left: 136px; width: 341px;}
+
+.s36.x9.noupload.None-p .product_text {left:99px;  width: 389px;}
+.s36.x9.noupload.None-s .product_text {left:130px; width: 395px;}
+.s36.x9.noupload.None-p.None-s .product_text {left:88px;  width: 436px;}
+.s36.x9.noupload.None-p.street-num .product_text, .s36.x9.noupload.None-p.None-s.street-num .product_text {left:99px;  width: 389px;}
+.s36.x9.noupload.None-s.street-num .product_text {left: 136px; width: 341px;}
+
+.s36.x9.Plain .product_text {left: 136px; width: 341px;}
+
+.s36.x9.Plain.None-p .product_text {left:99px;  width: 389px;}
+.s36.x9.Plain.None-s .product_text {left:136px; width: 395px;}
+.s36.x9.Plain.None-p.None-s .product_text {left:88px;  width: 436px;}
+.s36.x9.Plain.None-p.street-num .product_text, .s36.x9.Plain.None-p.None-s.street-num .product_text {left:99px;  width: 389px;}
+.s36.x9.Plain.None-s.street-num .product_text {left: 136px; width: 341px;}
+
+
+.s36.x9.Round .product_text {left:129px;width: 349px;}
+
+.s36.x9.Round.None-p .product_text {left:95px;  width: 382px;}
+.s36.x9.Round.None-s .product_text {left:134px; width: 382px;}
+.s36.x9.Round.None-p.None-s .product_text {left:95px;  width: 421px;}
+.s36.x9.Round.None-p.street-num .product_text, .s36.x9.Round.None-p.None-s.street-num .product_text {left:95px;  width: 382px;}
+.s36.x9.Round.None-s.street-num .product_text {left:129px;width: 349px;}
+
+.s36.x9.Round.Arrow-L-p .product_text, .s36.x9.Round.Arrow-D-p .product_text, .s36.x9.Round.Arrow-U-p .product_text  {left:134px; width: 382px;}
+
+.s36.x9.Left-Pointer .product_text {left:167px; width: 310px;}
+
+.s36.x9.Left-Pointer.None-p .product_text {left:139px;  width: 339px;}
+.s36.x9.Left-Pointer.None-s .product_text {left:174px; width: 347px;}
+.s36.x9.Left-Pointer.None-p.None-s .product_text {left:140px;  width: 379px;}
+.s36.x9.Left-Pointer.None-p.street-num .product_text, .s36.x9.Left-Pointer.None-p.None-s.street-num .product_text {left:139px;  width: 339px;}
+.s36.x9.Left-Pointer.None-s.street-num .product_text {left:167px; width: 310px;}
+
+.s36.x9.Right-Pointer .product_text {left:116px; width: 313px;}
+
+.s36.x9.Right-Pointer.None-p .product_text {left:88px;  width: 348px;}
+.s36.x9.Right-Pointer.None-s .product_text {left:124px; width: 348px;}
+.s36.x9.Right-Pointer.None-p.None-s .product_text {left:88px;  width: 384px;}
+.s36.x9.Right-Pointer.None-p.street-num .product_text, .s36.x9.Right-Pointer.None-p.None-s.street-num .product_text {left:88px;  width: 348px;}
+.s36.x9.Right-Pointer.None-s.street-num .product_text {left:116px; width: 313px;}
+
+.s36.x9 .thumbnail{width:534px;}
+
+.s36.x9.None-p.noupload.street-num .product_text, .s36.x9.None-p.Plain.street-num .product_text {left:90px;  width: 380px;}
+
+
+
+/*---------------- 42 x 9 ------------------------------- */
+
+.s42.x9.upload .product_text {left: 138px; width: 377px;}
+
+.s42.x9.upload.None-p .product_text {left:102px;  width: 403px;}
+.s42.x9.upload.None-s .product_text {left:139px; width: 416px;}
+.s42.x9.upload.None-p.None-s .product_text {left:102px;  width: 454px;}
+.s42.x9.upload.None-p.street-num .product_text, .s42.x9.upload.None-p.None-s.street-num .product_text {left:102px;  width: 403px;}
+.s42.x9.upload.None-s.street-num .product_text {left: 138px; width: 377px;}
+
+.s42.x9.noupload .product_text {left: 87px; width: 420px;}
+
+.s42.x9.noupload.None-p .product_text {left:51px;  width: 458px;}
+.s42.x9.noupload.None-s .product_text {left:87px; width: 470px;}
+.s42.x9.noupload.None-p.None-s .product_text {left:51px; width: 510px; }
+.s42.x9.noupload.None-p.street-num .product_text, .s42.x9.noupload.None-p.None-s.street-num .product_text {left:51px;  width: 458px;}
+.s42.x9.noupload.None-s.street-num .product_text {left: 87px; width: 420px;}
+
+.s42.x9.Plain .product_text {left: 87px; width: 420px;}
+
+.s42.x9.Plain.None-p .product_text {left:51px;  width: 458px;}
+.s42.x9.Plain.None-s .product_text {left:87px; width: 470px;}
+.s42.x9.Plain.None-p.None-s .product_text {left:51px; width: 510px; }
+.s42.x9.Plain.None-p.street-num .product_text, .s42.x9.Plain.None-p.None-s.street-num .product_text {left:51px;  width: 458px;}
+.s42.x9.Plain.None-s.street-num .product_text {left: 87px; width: 420px;}
+
+
+.s42.x9.Round .product_text {left:93px; width: 418px;}
+
+.s42.x9.Round.None-p .product_text {left:56px;  width: 453px;}
+.s42.x9.Round.None-s .product_text {left:94px; width: 456px;}
+.s42.x9.Round.None-p.None-s .product_text {left:56px; width: 495px; }
+.s42.x9.Round.None-p.street-num .product_text, .s42.x9.Round.None-p.None-s.street-num .product_text {left:56px;  width: 453px;}
+.s42.x9.Round.None-s.street-num .product_text {left:93px; width: 418px;}
+
+.s42.x9.Left-Pointer .product_text {left:139px; width: 375px;}
+
+.s42.x9.Left-Pointer.None-p .product_text {left:100px;  width: 410px;}
+.s42.x9.Left-Pointer.None-s .product_text {left:135px; width: 420px;}
+.s42.x9.Left-Pointer.None-p.None-s .product_text {left:100px; width: 460px; }
+.s42.x9.Left-Pointer.None-p.street-num .product_text, .s42.x9.Left-Pointer.None-p.None-s.street-num .product_text {left:100px;  width: 410px;}
+.s42.x9.Left-Pointer.None-s.street-num .product_text {left:139px; width: 375px;}
+
+.s42.x9.Right-Pointer .product_text {left:87px; width: 381px;}
+
+.s42.x9.Right-Pointer.None-p .product_text {left:52px;  width: 410px;}
+.s42.x9.Right-Pointer.None-s .product_text {left:85px; width: 427px;}
+.s42.x9.Right-Pointer.None-p.None-s .product_text {left:52px; width: 460px; }
+.s42.x9.Right-Pointer.None-p.street-num .product_text, .s42.x9.Right-Pointer.None-p.None-s.street-num .product_text {left:52px;  width: 410px;}
+.s42.x9.Right-Pointer.None-s.street-num .product_text {left:87px; width: 381px;}
+
+.s42.x9 .thumbnail{width:568px;}
+
+.s42.x9.None-p.noupload.street-num .product_text, .s42.x9.None-p.Plain.street-num .product_text {left:51px; width: 450px;}
+
+
+/*---------------- 48 x 9 ------------------------------- */
+
+.s48.x9.upload .product_text {left:97px; width: 451px;}
+
+.s48.x9.upload.None-p .product_text {left:69px;  width: 460px;}
+.s48.x9.upload.None-s .product_text {left:100px; width: 485px;}
+.s48.x9.upload.None-p.None-s .product_text {left:69px;  width: 518px;}
+.s48.x9.upload.None-p.street-num .product_text, .s48.x9.upload.None-p.None-s.street-num .product_text {left:69px;  width: 460px;}
+.s48.x9.upload.None-s.street-num .product_text {left:97px; width: 451px;}
+
+.s48.x9.noupload .product_text {left:45px; width: 500px;}
+
+.s48.x9.noupload.None-p .product_text {left:10px;  width: 535px;}
+.s48.x9.noupload.None-s .product_text {left:45px; width: 545px;}
+.s48.x9.noupload.None-p.None-s .product_text {left:10px;  width: 580px;}
+.s48.x9.noupload.None-p.street-num .product_text, .s48.x9.noupload.None-p.None-s.street-num .product_text {left:10px;  width: 535px;}
+.s48.x9.noupload.None-s.street-num .product_text {left:45px; width: 500px;}
+
+.s48.x9.Plain .product_text {left:45px; width: 500px;}
+
+.s48.x9.Plain.None-p .product_text {left:10px;  width: 535px;}
+.s48.x9.Plain.None-s .product_text {left:45px; width: 545px;}
+.s48.x9.Plain.None-p.None-s .product_text {left:10px;  width: 580px;}
+.s48.x9.Plain.None-p.street-num .product_text, .s48.x9.Plain.None-p.None-s.street-num .product_text {left:10px;  width: 535px;}
+.s48.x9.Plain.None-s.street-num .product_text {left:45px; width: 500px;}
+
+
+.s48.x9.Round .product_text {left: 56px; width: 491px;}
+
+.s48.x9.Round.None-p .product_text {left:14px;  width: 530px;}
+.s48.x9.Round.None-s .product_text {left:55px; width: 531px;}
+.s48.x9.Round.None-p.None-s .product_text {left:15px;  width: 570px;}
+.s48.x9.Round.None-p.street-num .product_text, .s48.x9.Round.None-p.None-s.street-num .product_text {left:14px;  width: 530px;}
+.s48.x9.Round.None-s.street-num .product_text {left: 56px; width: 491px;}
+
+.s48.x9.Left-Pointer .product_text {left:102px; width: 430px;}
+
+.s48.x9.Left-Pointer.None-p .product_text {left:60px;  width: 470px;}
+.s48.x9.Left-Pointer.None-s .product_text {left:95px; width: 495px;}
+.s48.x9.Left-Pointer.None-p.None-s .product_text {left:60px;  width: 530px;}
+.s48.x9.Left-Pointer.None-p.street-num .product_text, .s48.x9.Left-Pointer.None-p.None-s.street-num .product_text {left:60px;  width: 470px;}
+.s48.x9.Left-Pointer.None-s.street-num .product_text {left:102px; width: 430px;}
+
+.s48.x9.Right-Pointer .product_text {left:53px; width: 438px;}
+
+.s48.x9.Right-Pointer.None-p .product_text {left:17px;  width: 473px;}
+.s48.x9.Right-Pointer.None-s .product_text {left:50px; width: 490px;}
+.s48.x9.Right-Pointer.None-p.None-s .product_text {left:10px;  width: 530px;}
+.s48.x9.Right-Pointer.None-p.street-num .product_text, .s48.x9.Right-Pointer.None-p.None-s.street-num .product_text {left:17px;  width: 473px;}
+.s48.x9.Right-Pointer.None-s.street-num .product_text {left:53px; width: 438px;}
+
+.s48.x9 .thumbnail{width:600px;}
+
+.s48.x9.None-p.noupload.street-num .product_text, .s48.x9.None-p.Plain.street-num .product_text  {left:7px; width: 530px;}
+
+/*----------------------------------------------- */
+
+
+#preview-image .thumbnail .vertically-aligned-copy1 {
+	width: inherit;
+	vertical-align: middle;
+	padding: 0;
+	overflow: hidden;
+	white-space: nowrap;
+	margin-top: 9px;
+}
+
+.x6.twoline #preview-image .thumbnail .vertically-aligned-copy1, .x4.twoline #preview-image .thumbnail .vertically-aligned-copy1 {
+	margin-top: 17px;
+}
+
+.x9.twoline #preview-image .thumbnail .vertically-aligned-copy1 {
+	margin-top: 18px;
+}
+
+.x6 #preview-image .thumbnail .vertically-aligned-copy2, .x4 #preview-image .thumbnail .vertically-aligned-copy2 {
+	width: inherit;
+	vertical-align: middle;
+	padding: 0;
+	overflow: hidden;
+	white-space: nowrap;
+	position:absolute;
+	top:60px;
+	width:100%;
+	height:30px;
+}
+
+.x9 #preview-image .thumbnail .vertically-aligned-copy2 {
+	width: inherit;
+	vertical-align: middle;
+	padding: 0;
+	overflow: hidden;
+	white-space: nowrap;
+	position:absolute;
+	top:85px;
+	width:100%;
+	height:40px;
+}
+
+/*
+.x6 #preview-image .thumbnail .vertically-aligned-copy1 span.copy, .x4 #preview-image .thumbnail .vertically-aligned-copy1 span.copy, .x9 #preview-image .thumbnail .vertically-aligned-copy1 span.copy, .x6 #preview-image .thumbnail .vertically-aligned-copy2 span.copy, .x4 #preview-image .thumbnail .vertically-aligned-copy2 span.copy, .x9 #preview-image .thumbnail .vertically-aligned-copy2 span.copy{
+	white-space: nowrap !important;
+}
+*/
+
+#over-max {
+	float: left;
+	background-color: #dae6f0;
+	text-align: left;
+	padding: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#over-max .waiveerror{
+	color:#b00000;
+	font-weight:bold;
+}
+#enter-copy-sections span.current-characters.over-max {
+	background-color:#b00000;
+}
+#enter-copy-sections span.current-characters {
+	color:#FFF;
+	padding-right:4px;
+	padding-left:4px;
+	padding-bottom:2px;
+	background-color: #6f4d25;/*#246495;*/
+	font-weight:bold;
+	font-size:14px;
+}
+#enter-copy-sections span.max-characters {
+	color:#FFF;
+	padding-right:4px;
+	padding-left:4px;
+	padding-bottom:2px;
+	background-color:#444444;
+	font-weight:bold;
+	font-size:14px;
+}
+
+.x6 .line_1, .x4 .line_1{
+	height: 65px;
+	position:relative;
+}
+
+.x6.twoline .line_1, .x6.twoline .line_2, .x4.twoline .line_1, .x4.twoline .line_2{
+	height: 40px;
+	position:relative;
+}
+
+.x9 .line_1, .x9 .line_2{
+	height: 93px;
+	position:relative;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	#preview-image span.copy{
+		/*position:relative;*/
+		left:0;
+	}
+	.x6 #preview-image .thumbnail .vertically-aligned-copy2, .x4 #preview-image .thumbnail .vertically-aligned-copy2 {
+	margin-top:0px;/*33px;hsinyi comment*/
+	}
+	.x6 #preview-image .product_text .line_2, .x4 #preview-image .product_text .line_2{font-size:20px;margin-top: -5px;}
+
+	.x9 #preview-image .product_text .line_2{font-size:25px;margin-top: -1px;}
+
+	.compress{
+	position:absolute;
+}
+}
+span.copy.org{
+		width:179px;}
+.compress{
+	position:absolute;
+}
+.uncompress{position:relative }
+
+
+.capitalize{text-transform:uppercase;}
+
+.oneline .capitalizeSizex6 span{font-size:85px !important;line-height:.3em !important;}
+.Arial.oneline .capitalizeSizex6 span{font-size:81px !important;line-height:.35em !important;}
+.Algerian.oneline .capitalizeSizex6 span{line-height:.35em !important;}
+.Brush.oneline .capitalizeSizex6 span{font-size:62px !important;line-height:.3em !important;}
+.Century.oneline .capitalizeSizex6 span{font-size:85px !important;line-height:.35em !important;}
+.Clarendon.oneline .capitalizeSizex6 span{font-size:85px !important;line-height:.3em !important;}
+.Futura.oneline .capitalizeSizex6 span{font-size:85px !important;line-height:.35em !important;}
+.Swiss.oneline .capitalizeSizex6 span{font-size:78px !important;line-height:.43em !important;}
+.Tekton.oneline .capitalizeSizex6 span{font-size:85px !important;line-height:.4em !important;}
+.Zapf.oneline .capitalizeSizex6 span{font-size:85px !important;line-height:.4em !important;}
+
+.oneline .capitalizeSizex9 span{font-size:120px !important;line-height:.25em !important;}
+
+.twoline .line_1.capitalizeSizex6 span{font-size:50px !important;line-height:.4em !important;}
+.twoline .line_2.capitalizeSizex6 span{font-size:26px !important;line-height:.65em !important;}
+
+.Algerian.twoline .line_1.capitalizeSizex6 span{font-size:50px !important;line-height:.5em !important;}
+.Algerian.twoline .line_2.capitalizeSizex6 span{font-size:20px !important;line-height:.8em !important;}
+
+.Arial.twoline .line_1.capitalizeSizex6 span{font-size:50px !important;line-height:.5em !important;}
+
+.Arial.twoline .line_2.capitalizeSizex6 span, .Century.twoline .line_2.capitalizeSizex6 span{line-height:.6em !important;}
+
+.Brush.twoline .line_1.capitalizeSizex6 span{font-size:43px !important;line-height:.5em !important;}
+.Brush.twoline .line_2.capitalizeSizex6 span{font-size:20px !important;line-height:.8em !important;}
+
+.Century.twoline .line_1.capitalizeSizex6 span{font-size:50px !important;line-height:.5em !important;}
+.Futura.twoline .line_1.capitalizeSizex6 span{font-size:50px !important;line-height:.45em !important;}
+.Swiss.twoline .line_1.capitalizeSizex6 span{font-size:48px !important;line-height:.6em !important;}
+.Tekton.twoline .line_1.capitalizeSizex6 span{font-size:48px !important;line-height:.5em !important;}
+.Times.twoline .line_1.capitalizeSizex6 span{font-size:50px !important;line-height:.5em !important;}
+.Zapf.twoline .line_1.capitalizeSizex6 span{font-size:45px !important;line-height:.5em !important;}
+
+.twoline .line_1.capitalizeSizex9 span{font-size:80px !important;line-height:.3em !important;}
+
+.twoline .line_2.capitalizeSizex9 span{font-size:32px !important;line-height:1em !important;}

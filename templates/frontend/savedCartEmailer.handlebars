@@ -1,0 +1,12 @@
+<div class="email-cart-wrapper">
+	<p class="h4">Email a copy of your saved cart</p>
+	<div class="email-cart-success-message-wrapper"></div>
+	<form method="POST" action="/email-cart" class="email-cart-form">
+		<div class="clear span-9 append-bottom email-cart-notice-wrapper"></div>
+		<div class="clear span-9 append-bottom"><span class="bold">From: </span><span class="note-text">{{userEmail}}</span></div>
+		<div class="clear span-9 append-bottom"><label><span class="left-side">To: </span><input type="email" class="right-side email-cart-recipient" placeholder="Enter recipient's email"></label></div>
+		<div class="clear span-9 append-bottom"><label>Message (optional): <textarea class="email-cart-message"></textarea></label></div>
+		<div class="clear span-9 append-bottom"><label><input type="checkbox" class="email-cart-cc"> Send me a copy of the email.</label></div>
+		<div class="right-side"><button type="button" class="email-cart-cancel-button button left-side last-margin">Cancel</button> <div class="email-cart-submit"><button type="submit" class="email-cart-send-button button green">Send Email</button></div></div>
+	</form>
+</div>

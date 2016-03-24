@@ -1,0 +1,32 @@
+/*
+	This file serves as the stylesheet for ONLY the terms and conditions popup within the checkout page.
+*/
+
+html {
+	font-size: 12px;
+	line-height: 1.4;
+	font-family: sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+	color:#175892;
+	font-weight:bold;
+	margin-bottom:0;
+}
+
+
+
+h4,
+.h4,
+.font-16 { font-size: 18px; }
